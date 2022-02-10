@@ -1,18 +1,12 @@
-using System.Collections;
+﻿using System;
 using System.Collections.Generic;
-using UnityEngine;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public class CharacterStatistics : MonoBehaviour
+namespace Assets.Scripts.CharacterCreation
 {
-    // Start is called before the first frame update
-    void Start()
+    class CharacterStatistics
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
