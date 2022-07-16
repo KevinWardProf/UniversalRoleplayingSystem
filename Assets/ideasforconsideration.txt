@@ -1,7 +1,7 @@
 ﻿Table of Contents
 Armor (#1.#3.#9.#11.)
 Damage Types (#2.)
-Perks (#4.#5.)
+Perks (#4.#5.#15.)
 Relationships (#7.)
 Systems (#8.#11.#12.)
 
@@ -163,18 +163,59 @@ Riding - Mounted animals, etc
 
 #14. Traits
 Perks which offer an extreme bonus for an extreme cost, both a combat and non combat role
-Built To Destroy
+-Built To Destroy
 In Combat : All weapons have +5% crit chance, degrade 15% faster, 
 Out Combat : Higher chance for appliances, items, to break
-Fast Shot
+-Fast Shot
 In Combat : 20% Faster Fire Rate, 20% Less Accuracy
 Out Combat : Actions are performed 20% faster, but are of lesser quality
-Bloody Mess
+-Bloody Mess
 In Combat : +10% Damage and witness most gruesome deaths
 Out Combat : Death is more common
-Four Eyes
+-Four Eyes
 In Combat : 1+ PER in glasses, -1 PER out of glasses, basically force certain eyewear
 Out Combat : Male -2 CHR, but +2 INT Female +1 CHR, +1 INT
-Small Frame 
+-Small Frame 
 In Combat : 1+ AGL, 25% more easy to cripple a limb
 Out Combat : Male -1 CHR Female -1 STR 
+-NEET
+In Combat : 
+Out Combat : No more skill points at level up, only attributes. Collectables(Skill Books, Magazines, Articles, Bobbleheads, etc) and Drugs now double in their effects. 
+
+#15. Perks
+-Cyborg
+Req: Lvl ?, Med 60, Sci 60
+Ranks: 3
+Eff:
+	+15% Fire, Energy, Poison, +2 INT, -2 CHR
+	-15% Magic, Divine, Occult Resistance
+-Daddy's Boy/Girl
+Req: Lvl 2, 
+Ranks: 3
+Eff:
+	Hacking Easier, +10% length of drug effect
+-Gun Nut
+Req: Lvl 2, Guns 30
+Ranks: 3
+Eff:
+	-10% Spread with Ballistic Weapons, +10% Total Condition For Current Weapon if Ballistic
+-Little Leaguer
+Req: Lvl 2, Melee 30
+Ranks: 3
+Eff:
+	Gives +10% damage when using two handed melee weapons, 10% throwing velocity to thrown weapons per rank
+-Scoundrel
+Req: Lvl 2, Barter 30
+Ranks: 3
+Eff:  
+	10% Discount at Vendors, +5% XP Speech Check Success 
+-Size Matters
+Req: Lvl 2, ?
+Ranks: 3
+Eff:
+	+10% damage to big ballsitic/energy weapons, -10% spread with using big ballistic/energy
+-Thief
+Req: Lvl 2, Sneak 30?
+Ranks: 3
+Eff:
+	+10% sneak walk speed, +5% pickpocket chance
