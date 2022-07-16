@@ -16,7 +16,7 @@ public class CharacterController : MonoBehaviour
 
     [Header("Stats")]
     [SerializeField]
-    float movement = 5;
+    float movementSpeed = 5;
     [SerializeField]
     float rotationSpeed = 10;
 
@@ -27,6 +27,22 @@ public class CharacterController : MonoBehaviour
         inputHandler = GetComponent<InputHandler>();
         cameraObject = Camera.main.transform;
         myTransform = transform;
+    }
+
+    public void Update()
+    {
+        float delta = Time.deltaTime;
+        inputHandler.TickInput(delta);
+
+        moveDirection = cameraObject.forward * inputHandler.vertical;
+        moveDirection += cameraObject.right * inputHandler.horizontal;
+        moveDirection.Normalize();
+
+        float speed = movementSpeed;
+        moveDirection *= speed;
+
+        Vector3 projectedVelocity = Vector3.ProjectOnPlane(moveDirection.normalized, normalVector);
+        rigidbody.velocity = projectedVelocity;
     }
 
     #region Movement
@@ -50,7 +66,6 @@ public class CharacterController : MonoBehaviour
         Quaternion tr = Quaternion.LookRotation(targetDir);
         Quaternion targetRotation = Quaternion.Slerp(myTransform.rotation, tr, rs * delta);
         myTransform.rotation = targetRotation;
-        //16:38 Ep1
     }
     #endregion
 
