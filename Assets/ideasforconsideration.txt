@@ -1,0 +1,180 @@
+﻿Table of Contents
+Armor (#1.#3.#9.#11.)
+Damage Types (#2.)
+Perks (#4.#5.)
+Relationships (#7.)
+Systems (#8.#11.#12.)
+
+#1.System to Enchance Weapons and Armor
+Allows players to use cool looking gear, vs just high stat bonus. Players use resources in world or from shops. Let's player add DT, add modifiers
+to add to CHR or Guns bonus. High science or repair would make players more efficent with materials.
+
+#2.Cryo Damage
+Slows you, if there is an extremity, loose an extremity if it gets too cold. 
+
+#3.Armor you can't lift move or shift, but it can be pierced, but you can use powers on it. Shields and barriers are more or less the same. The only real
+difference is the resistance. 
+
+#4.Percision Strike PER 6 LCK <3
+ In VATs you can choose to perform a precision strike, costing 1.5x more action points to do 2x more damage with your selected weapon.
+ Crit alternative to for a low luck
+
+#5.Idiot Savant LCK 5 
+The lower your intelligence and the higher your luck increases the chance of earning a 5x EXP bonus for 5min. Or if you are within
+5-10 of a skill check you can pass it. Or it lowers checks for non speech(barter, intimidate, charm)
+
+#6.
+/// <summary> Ammunition Types
+/// Anti-Personal Rounds
+///     --Hollow Point / Shredder Rounds
+///     Designed to shred flesh and other organic matter, these rounds are particularly effective against living targets. (eg. Hollow Points)
+/// Anti-Armor Rounds
+///     --Armor Piercing / Tugsten Rounds
+///     Specifically designed to puncture metal, these rounds are partiuclarly effective against synthetic targets/
+/// Incendiary Rounds
+///     --Incendiary / Inferno Rounds
+///     Consist of a thermite paste which clings to, and burns through nearly any known substance.
+/// Cryo Rounds
+///     --Cryo Rounds
+///     Cooling Lasers collapse ammunition into small Bose-Einstein condensate - a mass of super-cooled subatomic particles - capable of snap-freezing impacted objects
+///     --Snowblind Rounds
+///     Inflict massive damage and destabilize enemies, reducing their accuracy. Reduces Enemy Accuracy, Rate of Fire of Weapon, Deals extra damage
+///     --Snap Freeze?
+///     Slow movement, reflexive times.
+/// Explosive Rounds
+///     --High Explosive
+///     Detonate on Impact, has Blast Radius, generates a lot of heat, weapon physics force, and has a damage bonus
+/// High Impact Ammunition
+///     --Hammerhead / Sledgehammer Rounds
+///     Squash projectiles which flatten on impact knock opponents completely off their feet. Coated with polonium to induce radiation sickness in targets(toxic damage?). Trade off for increased heat absorption.
+/// Shield Piercing Ammunition
+///     --Phasic / Proton Rounds
+///     Instead of Projectiles, upgraded weapons release charged particle bolts that can bypass shields. Bypass shield by percentage, reduced damage per shot.
+/// Hyper Velocity
+///     --High Velocity
+///     Fly faster, penetrate faster.
+/// Toxic Ammunition
+///     --Chemical Rounds
+///     Popular with pirates, criminals, deal toxic damage per shot over time. Does not deal damage until Poision or Toxic meeting is filled, then deals per shot damage.
+///     --Polonium Round
+///     Stamped with miniscule amount of radioactive polonium into every round, poisioning enemy targets and preventing enemy health regeneration.
+/// Anti-Tech?
+///     --Radioactive Rounds
+///     Radioactive materials induce low level radition sickness in targets, reducing cooldown rates for ability uses.
+/// </summary>
+
+#7.Marriage, husbando, waifu, condition
+
+#8.Character Stats
+Name - User entered (should this tie to a family?)
+Age - Raw number value with certain 
+Sex - Male or Female, affecting starting stats, (Male +STR, +AGL : Female +INT, +AGL ??)
+Character Attributes - Main governing statistics from which all other statistics are derived.
+Character Derived Statistics - Catch all for all relevant statisical data about a character.
+Character Needs - Measure of different physiological 
+Virtue - How moral or immoral a character is, based on Aristotelean measurements, 
+Traits - Personality Traits that modify the characters base stats and thus combat, social, relational interactions.
+
+Lifetime Wish - A bonus quest for an extreme long term reward.
+Favorties - Food, Color, Music
+
+
+#9.Character Outfits
+These are intended to be presets of clothing items that can be equipped. Like a more advanced system of favoriting for the Player Inventory.
+Everyday - The general outfit for the character. Ambivalent to context.
+Formal Wear - The outfit for special events, like weddings, funnerals, parties, etc.
+Sleep Wear - The otufit for the character to wear to sleep.
+Swim Wear - The outfit for the character to wear while casually swimming (not all contexts of swimming)
+Atheletic Wear - The outfit for the character to wear while exercising/training
+Custom - A user created outfit, that is stored on the save file.
+
+#10.Character Creation Quiz
+10 questions which help inform the type of character you are creating, informing the tag skills, starting currency, skill bonuses, 
+
+#11.Inventory
+There is a inventory, where an infinite number of items may be held, a home base, etc.
+There is an equipment, where a certain number/weight of items may be held
+Each character has a certain number of equip slots determined by their default equip slots + their clothing.
+To explain.
+item -- armor
+((item)) -- clothing/armor
+(item) -- clothing
+Head: ((Headgear)) - ((Eye Gear)) - ((Ear Gear))
+Torso: Body Armor - Back - (Tops)
+Shoudlers: ((Neck)) Pauldrons
+Arms: Braces - Gloves
+Thighs: Belt - Groin - (Bottoms)
+Pockets: ((determined by clothing))
+Legs: Knees - Shin  - (Socks)
+Foot: ((Shoes))
+
+#12.BodyHealth
+Head
+Chest (Thorax)
+Stomach (Abdomen)
+Right Arm
+Left Leg
+Right Leg
+Left Leg
+
+#13.Targeting
+Head
+Eyes
+Chest (Thorax)
+Stomach (Abdomen)
+Groin
+Right Arm
+Left Leg
+Right Leg
+Left Leg
+
+#13.Skills
+
+Primary : Skills which direct combat
+Ballistic Weapons - Pistol, Rifle, Shotguns, Machine Guns
+Energy Weapons - Laser, Plasma, Fire, Cryo, Electric, Pneumatic
+Melee Weapons - One handed, Two Handed, Blade, Blunt, Thrusting, Polearms
+Unarmed Weapons - Fists, Gauntlets, Gloves
+Explosives - Grenades, Mines, Launchers, 
+Kinetic Weapons - Bows, Crossbows, Throwing Weapons, Slings
+
+Support : Skills which aid in combat
+First Aid - Treat Minor wounds, stop the bleed
+Medicine - Treat Major wounds, heal the wound
+Survival - Food & water items, secondary healing, alt medicine
+Stealth - Sneak Attack, Traps,
+Repair - Repair gear, fix machines, ballistic ammo, low level energy weapons, disarming
+
+Secondary : Skills which are non combat
+Business - Trading, Economics, Organization
+Languages - Ability to communicate, rhetoric, 
+Roguery - Lockpicking, Pickpocketing, Capture, Raiding
+Science - Energy Ammo, Hacking, Logic 
+
+Tertirary : Skills which are explicitly intellectual
+Engineering
+
+
+Movement : Skills which are all athletic
+Walking - Walking/Running on dry and wet surfaces
+Swimming - Traversing water
+Climbing - Scaling walls, obstacles, mantling
+Riding - Mounted animals, etc
+
+#14. Traits
+Perks which offer an extreme bonus for an extreme cost, both a combat and non combat role
+Built To Destroy
+In Combat : All weapons have +5% crit chance, degrade 15% faster, 
+Out Combat : Higher chance for appliances, items, to break
+Fast Shot
+In Combat : 20% Faster Fire Rate, 20% Less Accuracy
+Out Combat : Actions are performed 20% faster, but are of lesser quality
+Bloody Mess
+In Combat : +10% Damage and witness most gruesome deaths
+Out Combat : Death is more common
+Four Eyes
+In Combat : 1+ PER in glasses, -1 PER out of glasses, basically force certain eyewear
+Out Combat : Male -2 CHR, but +2 INT Female +1 CHR, +1 INT
+Small Frame 
+In Combat : 1+ AGL, 25% more easy to cripple a limb
+Out Combat : Male -1 CHR Female -1 STR 
