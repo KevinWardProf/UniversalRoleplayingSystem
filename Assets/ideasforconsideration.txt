@@ -25,12 +25,105 @@ The lower your intelligence and the higher your luck increases the chance of ear
 
 #6.
 /// <summary> Ammunition Types
-/// Anti-Personal Rounds
+/// 1. Hand Loaded Ammunition
+/// Ammo crafting via a reloading bench allows players to take existing ammunition and
+/// convert it into their favored ammunition recipes. Custom Ammunition takes this a step
+/// further and allows players to fine tune their ammunition. While at first simply
+/// making marginal resources gains, late investment means creating the perfect ammunition /// for the right weapon. Hand Loaded Custom Ammunition is found no where in the game.
+/// . Armor Piercing
+/// Armor Piercing ammunition is designed for punching through armor plating and for this purpose, they have a greatly strengthened case with a specially hardened core and shaped nose. Due to the high velocity and penetrative properties of the round, the limited expansion.
+/// DMG x0.90, -15 DT, Condition X1, Spread X1, +15% DMG to Synthetics
+/// . Armor Piercing Capped
+/// Like traditional Armor Piercing ammunition this type is designed for defeating armor /// plating, however its softer metal, rounded nose transfers impact shock away from the /// tip to prevent shattering. Deforming on impact, the trajectory of the round rotates to /// form a smaller angle, improving penetration on angled armor.
+/// DAM x0.90, -20 DT, Condition x1, Spread x1, +15% DMG to Sythetics, -30% ammo velocity
+/// . Armor Piercing Ballistic Capped
+/// Shaped with the same softer material as APC ammo, the nose on this ammunition is
+/// molded for improved aerodynamics. Overcoming the velocity pitfalls of APC the ammo,
+/// doesn't add any additional penetration directly. Instead the round improves performance
+/// at longer distances and explodes upon impact.
+/// DAM x0.90, -15DT, Condition x1, Spread 1x, +15% DMG to Synthetics, +30% velocity
+/// . Armor Piercing Capped Ballistic Capped
+/// Combining the nose cone of the Armor Piercing Capped and the ballistic cap of the
+/// Armor Piercing Capped Ballistic Capped, this round provides the best of worlds.
+/// Offering increased penetration and velocity without sacrificing
+/// DAM x0.90, -20DT, Condition x1, Spread 1x, +15% DMG to Sythethics, +30% Velocity
+/// . Armor Piercing High Explosive
+/// Armor Piercing ammunition with iternal explosive filler on the inside. After pentrating armor, a timed fused actives the explosives dealing additional damage on top
+/// DAM x0.90, -10DT, Conditiond x1, Spread 1x, +15% DMG to Sythethics, +10% DMG to
+/// Organics, +10% Explosive Damage
+/// . Armor Piercing High Explosive Capped
+/// DAM x0.90, -15DT, Conditiond x1, Spread 1x, +15% DMG to Sythethics, +10% DMG to
+/// Organics, +10% Explosive Damage, -30% Velocity
+/// . Armor Piercing High Explosive Ballistic Capped
+/// DAM x0.90, -10DT, Conditiond x1, Spread 1x, +15% DMG to Sythethics, +10% DMG to
+/// Organics, +10% Explosive Damage, +30% Velocity
+/// . Armor Piercing High Explosive Capped Ballistic Capped
+/// DAM x0.90, -15DT, Conditiond x1, Spread 1x, +15% DMG to Sythethics, +10% DMG to
+/// Organics, +10% Explosive Damage, +30% Velocity
+/// . Anti Concrete
+/// Designed as an anti-enmplacement round to be used against fortifications like
+/// pillboxes, bunkers. Functioncally the same as Armor Piercing High Explsoive, the round /// fired has a greater amount of explosive filler without sacrificing pentration.
+/// DAM x0.90, -15DT, Conditiond x1, Spread 1x, +15% DMG to Sythethics, +10% DMG to
+/// Organics, +30% Explosive Damage
+/// . Tungsten
+/// Specifically designed to puncture metal, these rounds are particularly effective
+/// against synthetic targets and vehicles. Made of smaller rounds designed to be fired at /// higher speeds that do not expand, these rounds tend to overpenetrate soft flesh and
+/// continue onward.
+/// DMG x1, -30 DT, %40 damage to Synthetics, -10% DMG to Organics
+/// .Armor Piercing Composite Rigid
+/// Instead of the entire shell, these rounds use small and dense cores as pentrators. Due
+/// to the size of the cores, it can focus all expended energy into a small area upon
+/// deformation leading to immense pentration. Due to a lack of spalling, this round has
+/// no after pentration effects. When defeated by armor, the round fragments and shatters
+/// before delivering heavily reduced blunt force trauma.
+/// DAM x0.85, -20DT, Condition x1, +10% Velcoity, -30% blunt damage transfer
+/// . Armor Piercing Discarding Sabot
+/// Instead of the entire shell, these rounds use small, dense arrow-like cores as
+/// pentrators. Discarding a soft casing called a sabot after exiting the barrel, it can /// focus all expended energy into a small area upon deformation leading to immense
+/// pentration. Made out of a tougher tungsten alloy, the core is less susceptible to
+/// shattering upon tougher armor, but has no after penetration effects.
+/// DAM x0.85, -25DT, Condition X1, +35% Velocity, -10% blunt damage transfer
+/// . Armor Piercing Fin Stabilized Discarding Sabot
+/// Like Armor Piercing Discarding Sabot, this tungestun cored sabot is designed to focus
+/// all expended energy into a small area upon deformation leading to immense pentration.
+/// The core, made from depeleted uranium, leading the core to deform and self sharpn upon
+/// impact. Additionally depeleted uranium is pyrophoric, igniting upon impact and melting
+/// armor. The round is less susceptible to shattering upon tougher armor and even provides
+/// smaller spalling effects to its target.
+/// DAM x0.85, -28DT, Condition X1, +35% Velocity, +5% DMG to Sythetics, +5% DMG to
+/// Organics, +5% Fire Damage, Armor 1.3X, -10% blunt damage transfer
+/// . Shrapnel
+/// A thin metal casing surrounds a stack of metal balls, backed by a detonator at the
+/// rear. When pentrating the detonator actives, spewing shrapnel all over the target's
+/// internals.
+/// DMG x1, -5DT, +10% DMG to Synthetics, +40 DMG to Organics, +30% Explosive Damage
+/// . Hollow Point
+/// Hollowpoint bullets mushroom and break upon impact, causing massive trauma on fleshy, /// unarmored targets. However, this also means they break up when they hit armor plates, /// drastically reducing the weapon's penetrating power.
+/// DAM 1.75x, DT x3,  
 ///     --Hollow Point / Shredder Rounds
 ///     Designed to shred flesh and other organic matter, these rounds are particularly effective against living targets. (eg. Hollow Points)
-/// Anti-Armor Rounds
-///     --Armor Piercing / Tugsten Rounds
-///     Specifically designed to puncture metal, these rounds are partiuclarly effective against synthetic targets/
+
+Jacketed, soft point ammunition is designed with a semi-jacketed harder metal coating with a soft bullet tip. It offers evenly managed damage and penetrative power. This round will do more damage than armor-piercing rounds and hollow point rounds in most situations making it the best all-round .308 ammo. Originally tagged with a 1.5x damage multiplier, as of patch 1.3.0.452 these rounds now only do 1.3x damage and deteriorate the gun 50% faster than normal.
+/// . Harpoon Rounds
+/// Harpoon Rounds are built of material condenses on impact to pentrate armor, then
+/// shreds into shrapnel upon entering the softer medium of flesh. Combining the best of
+/// both traditional armor-piercing and hollow point ammunition, this ammunition is
+/// considered highly unethical.
+/// Req: Guns 90
+/// DMG x1.90, -30 DT, Condition x1, Spread x1, -100 Karma per kill, -15% DMG to sythetics
+/// +60% DMG to organics
+/// . High Explosive
+Instead of relying on mass and velocity, these rounds use chemical reactions to penetrate armor. Unaffected by velocity penalities, these rounds have the same pentration over all distances. However, this leads the ammunition to never overpentrate as the ammunition explodes upon impact. Offering no pentrative capabilities this round defeats its target's armor with the use of high explosives and otherwise deals massive overpressure from compressed air shockwaves. 
+/// DAM 5x, +100% Explosive, 
+/// . High Explosive Timed Fuse
+/// . High Explosive 
+/// . High Explosive Anti Tank
+/// . High Explosive Variable Timed
+/// . High Explosive Grenade
+-50% Velocity
+/// . Fragmentation Explosive Round
+/// . Rocket
+/// High Explosive Squash Head
 /// Incendiary Rounds
 ///     --Incendiary / Inferno Rounds
 ///     Consist of a thermite paste which clings to, and burns through nearly any known substance.
@@ -130,30 +223,32 @@ Left Leg
 
 #13.Skills
 
-Primary : Skills which direct combat
-Ballistic Weapons - Pistol, Rifle, Shotguns, Machine Guns
-Energy Weapons - Laser, Plasma, Fire, Cryo, Electric, Pneumatic
-Melee Weapons - One handed, Two Handed, Blade, Blunt, Thrusting, Polearms
-Unarmed Weapons - Fists, Gauntlets, Gloves
-Explosives - Grenades, Mines, Launchers, 
-Kinetic Weapons - Bows, Crossbows, Throwing Weapons, Slings
+Primary : Skills which direct combat, utilizing different classes of weapons
+Ballistic Weapons - Pistol, Rifle, Shotguns, Machine Guns use & crafting.
+Energy Weapons - Laser, Plasma, Fire, Cryo, Electric, Pneumatic, use & crafting.
+Melee Weapons - One handed, Two Handed, Blade, Blunt, Thrusting, Polearms use & crafting.
+Unarmed Weapons - Fists, Gauntlets, Gloves, use & crafting.
+Explosives - Grenades, Mines, Launchers, use & crafting.
+Kinetic Weapons - Bows, Crossbows, Throwing Weapons, Slings, use & crafting.
 
-Support : Skills which aid in combat
+Support : Skills which faciliatate combat, but serve a secondary function.
 First Aid - Treat Minor wounds, stop the bleed
 Medicine - Treat Major wounds, heal the wound
-Survival - Food & water items, secondary healing, alt medicine
-Stealth - Sneak Attack, Traps,
-Repair - Repair gear, fix machines, ballistic ammo, low level energy weapons, disarming
+Survival - Food & water items, secondary healing, alt medicine, bonus to crafting kinetic weapons.
+Stealth - Sneak Attack, Setting traps.
+Repair - Perform field repairs, fix machines, craft ballistic ammo, low level energy weapons, disarming traps.
 
-Secondary : Skills which are non combat
+Secondary : Skills which are non combat, but help manage logistics.
 Business - Trading, Economics, Organization
 Languages - Ability to communicate, rhetoric, 
 Roguery - Lockpicking, Pickpocketing, Capture, Raiding
 Science - Energy Ammo, Hacking, Logic 
+Armorer - Craft Armor, armor upgrades and improvements.
 
-Tertirary : Skills which are explicitly intellectual
-Engineering
 
+Tertirary : Skills which are explicitly tied to a item or niche ability.
+All weapon, armor skills, etc.
+eg. M4 Carbine (high skill means more shooting positions, forms, innate use perks.
 
 Movement : Skills which are all athletic
 Walking - Walking/Running on dry and wet surfaces
@@ -183,6 +278,42 @@ In Combat :
 Out Combat : No more skill points at level up, only attributes. Collectables(Skill Books, Magazines, Articles, Bobbleheads, etc) and Drugs now double in their effects. 
 
 #15. Perks
+- Hand Loader
+Req: Lvl 6, Intelligence 40, Ballistics 70
+Unlock non standard, highly valued ammunition for crafting at reloading benches. At rank 2, unlock the ability to craft custom ammunition, fine tunning the characteritics of every bullet. 
+- Vigilant Recycler
+Req: Lvl 6, Dexterity 30, Luck > 3
+Twice as likely to recover ballistic casings, spent energy cells, arrows, bolts, and all other kinds of used ammunition upon use.
+- Pain Train
+Req: Lvl 6, Strength ?
+There are no breaks on the pain train. Sprinting into enemies now causes them to always stagger and even have a chance to knock them down. The higher your Strength attibute and the heavier your armor, the higher chance for a knock down.
+- Counter Check
+Req: Agility ?, Strength 30
+Pressing the dodge button while an enemy is sprinting at, or performing a running attack will initiate a counter body check or hip check if crouching. Launch your enemies into a knockdown and show them size isn't everything.
+- Deep Rooted
+Req: Lvl 12, Strength 9
+While standing still your Damage Resistance is increased by 25%, all non projectile attacks deal 50% more damage and your poise is increased by 50%.
+- Heavy Hitter
+Req: Lvl 12, Strength 8
+Bashing an enemy with your projectile weapon, eg. firearm, deals an additional 50% damage and causes your target to stagger. 
+
+Steady Aim
+Strong Back
+Burden To Bear
+-Anatomy Anihilator
+Req: Lvl 8, First Aid 70
+Shows the HP, Damage Threshold, Damage Resistance of any targeting in targeting mode.
+Deal an additional 10% damage to humans, post humans.
+
+-Sensing Weakness
+Req: Lvl 8, Perception 40
+
+-
+
+-Eyes of Faith
+Req: Lvl 8, Faith 70
+
+
 -Cyborg
 Req: Lvl ?, Med 60, Sci 60
 Ranks: 3
@@ -198,7 +329,7 @@ Eff:
 Req: Lvl 2, Guns 30
 Ranks: 3
 Eff:
-	-10% Spread with Ballistic Weapons, +10% Total Condition For Current Weapon if Ballistic
+	-10% Spread with Ballistic Weapons, +10% Total Condition For Current Weapon if Ballistic.
 -Little Leaguer
 Req: Lvl 2, Melee 30
 Ranks: 3
@@ -219,3 +350,19 @@ Req: Lvl 2, Sneak 30?
 Ranks: 3
 Eff:
 	+10% sneak walk speed, +5% pickpocket chance
+
+#16.Weapon Proficiencies
+-Expert Marksmen
+Req: Lvl ?
+Headshot kills give more XP.
+-Fast Melee
+Req:
+Advanced training allows for quicker light melee attacks.
+
+#17. Weapon Archetypes.
+All weapons deal blunt, slashing, thrust sub damage types.
+Slashing, medium critical chance, highest bleed, medium limb damage
+Thrust, highest cirtical chance, medium bleed, lowest limb damage
+Blunt, lowest critical chance, lowest bleed, highest limb damage, ignores damage resistance?
+Automatics have the highest supression, with higher DPS meaning not only more damage per second, but also increases to staggering an opponent.
+Single shot have the highest chance to cripple an opponent.
