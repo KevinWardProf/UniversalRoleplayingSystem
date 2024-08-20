@@ -96,14 +96,49 @@ The lower your intelligence and the higher your luck increases the chance of ear
 /// A thin metal casing surrounds a stack of metal balls, backed by a detonator at the
 /// rear. When pentrating the detonator actives, spewing shrapnel all over the target's
 /// internals.
-/// DMG x1, -5DT, +10% DMG to Synthetics, +40 DMG to Organics, +30% Explosive Damage
+/// DMG x1, -5DT, +10% DMG to Synthetics, +40% DMG to Organics, +30% Explosive Damage
 /// . Hollow Point
-/// Hollowpoint bullets mushroom and break upon impact, causing massive trauma on fleshy, /// unarmored targets. However, this also means they break up when they hit armor plates, /// drastically reducing the weapon's penetrating power.
-/// DAM 1.75x, DT x3,  
-///     --Hollow Point / Shredder Rounds
-///     Designed to shred flesh and other organic matter, these rounds are particularly effective against living targets. (eg. Hollow Points)
+/// Hollowpoint bullets mushroom and break upon impact, causing massive trauma on fleshy, /// unarmored targets. However, this also means they break up easily when they hit armor
+/// plates, drastically reducing the weapon's penetrating power.
+/// DAM 1.75x, DT x3,  Condition x1.5, Spread x1,
+/// Jacketed Soft Point
+/// Designed with a semi-jacketed harder metal coating with a soft bullet tip. It offers
+/// evenly managed damage and penetrative power. This round will do more damage than armor
+/// piercing rounds and hollow point rounds in most situations making it the best all-round
+/// ammo.
+/// DAM 1.5x, DT x1, Condition x1.5, Spread x1
+/// . Jacketed Flat Points
+/// Blunt, copper-wrapped bullets designed to flatten on impact like a hollow point, but
+/// retain the penetrating power of a copper-jacket slug. 
+/// DAM 1.25,x -3DT, Condition 1x, Spread 0.8x
+/// . Special Low Load Round
+/// A less powerful cartridge, this round can be fired from any weapon capable of firing  /// the regular round. Despite the name, they share all the same dimensions except case
+/// length and a tougher cap. Though the reduction in powder means less force inflicted on
+/// the target, it also means less wear and tear per shot on the gun. A cost effective
+/// option for those short on powder and want roughly the same effect.
+/// DAM 0.75x, -2DT, Condition 0.75x, Spread 1x, -15% bullet velocity, -10% blunt damage
+/// transfer, -10%, -5% Recoil
+/// . Semi Wad Cutter
+/// This flat-nosed bullet traditionally sits pointing down the barrel of revolvers. An all
+/// purpose compromise, this round combines the benefits of traditional round nose bullets
+/// and wadcutters common in hunting, target shooting and plinking. Rather than
+/// tearing/stretching like its rounded counterparts, this round punches a clean hole
+/// through its target. Holding together on impact, the round maintains shape with minimal
+/// expansion, creating an air envelope for greater cavitation and wounding. Without the
+/// feeding issues found in full wade cutters in, this round additionally mitigates recoil,
+/// but suffers from additional fouling upon inigition.
+/// DAM 1.2x, -6DT, Condition x3, Spread x1, -10% recoil, -5% jam chance
+/// . Shredder Rounds
+/// Designed to shred flesh and other organic matter, these rounds are particularly effective against living targets. (eg. Hollow Points)
+/// High Impact Ammunition
+///     --Hammerhead Rounds
+///
+/// DAM x0.85, -28DT, Condition X1, +35% Velocity, +5% DMG to Sythetics, +5% DMG to
+/// Organics, +5% Fire Damage, Armor 1.3X, -10% blunt damage transfer
 
-Jacketed, soft point ammunition is designed with a semi-jacketed harder metal coating with a soft bullet tip. It offers evenly managed damage and penetrative power. This round will do more damage than armor-piercing rounds and hollow point rounds in most situations making it the best all-round .308 ammo. Originally tagged with a 1.5x damage multiplier, as of patch 1.3.0.452 these rounds now only do 1.3x damage and deteriorate the gun 50% faster than normal.
+/// Sledgehammer Rounds
+///  Squash projectiles which flatten on impact knock opponents completely off their feet. Coated with polonium to induce radiation sickness in targets(toxic damage?). Trade off for increased heat absorption.
+
 /// . Harpoon Rounds
 /// Harpoon Rounds are built of material condenses on impact to pentrate armor, then
 /// shreds into shrapnel upon entering the softer medium of flesh. Combining the best of
@@ -137,9 +172,6 @@ Instead of relying on mass and velocity, these rounds use chemical reactions to 
 /// Explosive Rounds
 ///     --High Explosive
 ///     Detonate on Impact, has Blast Radius, generates a lot of heat, weapon physics force, and has a damage bonus
-/// High Impact Ammunition
-///     --Hammerhead / Sledgehammer Rounds
-///     Squash projectiles which flatten on impact knock opponents completely off their feet. Coated with polonium to induce radiation sickness in targets(toxic damage?). Trade off for increased heat absorption.
 /// Shield Piercing Ammunition
 ///     --Phasic / Proton Rounds
 ///     Instead of Projectiles, upgraded weapons release charged particle bolts that can bypass shields. Bypass shield by percentage, reduced damage per shot.
@@ -156,6 +188,48 @@ Instead of relying on mass and velocity, these rounds use chemical reactions to 
 ///     Radioactive materials induce low level radition sickness in targets, reducing cooldown rates for ability uses.
 /// </summary>
 
+#7.Weapon Attachments
+Combat Sensor
+Combat Scanner
+Lightweight Supressors
+Tactical Supressors
+Propriotary Supressors
+Improved Sighting
+Heat Sink
+Frictionless Materials
+High Caliber Barrel
+Rail Extension
+Scram Rail
+Recoil Damper
+Kinetic Stabilizer
+Kinetic Coil
+Hyper Rail
+
+Armor Upgrades
+Armor Plating
+Ablative Coating
+Energized Plating
+Dragonskin
+Hardened Weave
+Energized Weave
+First Aid Interface
+Medical Interface
+Medical Exoskeleton
+Stimulant Pack
+Kinetic Buffer
+Kinetic Exoskeleton
+Motorized Joints
+Exoskeleton
+Combat Exoskeleton
+Shock Absorbers
+Sheild Battery
+Sheild Modulator
+Sheild Interface
+Sheild Regenerator
+Toxic Seals
+Hazard Seals
+Pressurized Seals
+
 #7.Marriage, husbando, waifu, condition
 
 #8.Character Stats
@@ -168,7 +242,7 @@ Character Needs - Measure of different physiological
 Virtue - How moral or immoral a character is, based on Aristotelean measurements, 
 Traits - Personality Traits that modify the characters base stats and thus combat, social, relational interactions.
 
-Lifetime Wish - A bonus quest for an extreme long term reward.
+Lifetime Wish - A bonus quest for an extreme long term reward, additional provides all the benefits of a free level up without actually leveling the player.
 Favorties - Food, Color, Music
 
 
