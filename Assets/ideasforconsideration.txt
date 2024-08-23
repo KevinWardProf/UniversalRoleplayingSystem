@@ -31,10 +31,15 @@ The lower your intelligence and the higher your luck increases the chance of ear
 /// further and allows players to fine tune their ammunition. While at first simply
 /// making marginal resources gains, late investment means creating the perfect ammunition /// for the right weapon. Hand Loaded Custom Ammunition is found no where in the game.
 /// . Armor Piercing
-/// Armor Piercing ammunition is designed for punching through armor plating and for this purpose, they have a greatly strengthened case with a specially hardened core and shaped nose. Due to the high velocity and penetrative properties of the round, the limited expansion.
+/// Armor Piercing ammunition is designed for punching through armor plating and for this
+/// purpose, they have a greatly strengthened case with a specially hardened core and shaped
+/// nose. Due to the high velocity and penetrative properties of the round, the limited
+/// expansion.
 /// DMG x0.90, -15 DT, Condition X1, Spread X1, +15% DMG to Synthetics
 /// . Armor Piercing Capped
-/// Like traditional Armor Piercing ammunition this type is designed for defeating armor /// plating, however its softer metal, rounded nose transfers impact shock away from the /// tip to prevent shattering. Deforming on impact, the trajectory of the round rotates to /// form a smaller angle, improving penetration on angled armor.
+/// Like traditional Armor Piercing ammunition this type is designed for defeating armor
+/// plating, however its softer metal, rounded nose transfers impact shock away from the 
+/// tip to prevent shattering. Deforming on impact, the trajectory of the round rotates to /// form a smaller angle, improving penetration on angled armor.
 /// DAM x0.90, -20 DT, Condition x1, Spread x1, +15% DMG to Sythetics, -30% ammo velocity
 /// . Armor Piercing Ballistic Capped
 /// Shaped with the same softer material as APC ammo, the nose on this ammunition is
@@ -100,17 +105,17 @@ The lower your intelligence and the higher your luck increases the chance of ear
 /// . Hollow Point
 /// Hollowpoint bullets mushroom and break upon impact, causing massive trauma on fleshy, /// unarmored targets. However, this also means they break up easily when they hit armor
 /// plates, drastically reducing the weapon's penetrating power.
-/// DAM 1.75x, DT x3,  Condition x1.5, Spread x1,
+/// DAM 1.75x, DT x3,  Condition x1.5, Spread x1, +15% DMG to Organics
 /// Jacketed Soft Point
 /// Designed with a semi-jacketed harder metal coating with a soft bullet tip. It offers
 /// evenly managed damage and penetrative power. This round will do more damage than armor
 /// piercing rounds and hollow point rounds in most situations making it the best all-round
 /// ammo.
-/// DAM 1.5x, DT x1, Condition x1.5, Spread x1
+/// DAM 1.5x, DT x1, Condition x1.5, Spread x1, 10% DMG to Organics, 10% DMG to Synthetics
 /// . Jacketed Flat Points
 /// Blunt, copper-wrapped bullets designed to flatten on impact like a hollow point, but
 /// retain the penetrating power of a copper-jacket slug. 
-/// DAM 1.25,x -3DT, Condition 1x, Spread 0.8x
+/// DAM 1.25,x -3DT, Condition 1x, Spread 0.8x, 10% DMG to Organics
 /// . Special Low Load Round
 /// A less powerful cartridge, this round can be fired from any weapon capable of firing  /// the regular round. Despite the name, they share all the same dimensions except case
 /// length and a tougher cap. Though the reduction in powder means less force inflicted on
@@ -129,7 +134,9 @@ The lower your intelligence and the higher your luck increases the chance of ear
 /// but suffers from additional fouling upon inigition.
 /// DAM 1.2x, -6DT, Condition x3, Spread x1, -10% recoil, -5% jam chance
 /// . Shredder Rounds
-/// Designed to shred flesh and other organic matter, these rounds are particularly effective against living targets. (eg. Hollow Points)
+/// Designed to shred flesh and other organic matter, these rounds eviserate  
+/// DAM 2.75x, DT x6,  Condition x1.5, Spread x1, %40 damage to Organics, -10% DMG to
+/// Synthetics
 /// High Impact Ammunition
 ///     --Hammerhead Rounds
 ///
@@ -149,7 +156,7 @@ The lower your intelligence and the higher your luck increases the chance of ear
 /// +60% DMG to organics
 /// . High Explosive
 Instead of relying on mass and velocity, these rounds use chemical reactions to penetrate armor. Unaffected by velocity penalities, these rounds have the same pentration over all distances. However, this leads the ammunition to never overpentrate as the ammunition explodes upon impact. Offering no pentrative capabilities this round defeats its target's armor with the use of high explosives and otherwise deals massive overpressure from compressed air shockwaves. 
-/// DAM 5x, +100% Explosive, 
+/// DAM 5x, DTx1, +100% Explosive Damage, 
 /// . High Explosive Timed Fuse
 /// . High Explosive 
 /// . High Explosive Anti Tank
