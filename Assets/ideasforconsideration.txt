@@ -115,7 +115,7 @@ The lower your intelligence and the higher your luck increases the chance of ear
 /// . Jacketed Flat Points
 /// Blunt, copper-wrapped bullets designed to flatten on impact like a hollow point, but
 /// retain the penetrating power of a copper-jacket slug. 
-/// DAM 1.25,x -3DT, Condition 1x, Spread 0.8x, 10% DMG to Organics
+/// DAM 1.25,x -3DT, Condition 1x, Spread 0.8x, +10% DMG to Organics
 /// . Special Low Load Round
 /// A less powerful cartridge, this round can be fired from any weapon capable of firing  /// the regular round. Despite the name, they share all the same dimensions except case
 /// length and a tougher cap. Though the reduction in powder means less force inflicted on
@@ -137,14 +137,15 @@ The lower your intelligence and the higher your luck increases the chance of ear
 /// Designed to shred flesh and other organic matter, these rounds eviserate  
 /// DAM 2.75x, DT x6,  Condition x1.5, Spread x1, %40 damage to Organics, -10% DMG to
 /// Synthetics
-/// High Impact Ammunition
-///     --Hammerhead Rounds
-///
-/// DAM x0.85, -28DT, Condition X1, +35% Velocity, +5% DMG to Sythetics, +5% DMG to
-/// Organics, +5% Fire Damage, Armor 1.3X, -10% blunt damage transfer
+/// . Hammerhead Rounds
+/// Oblong ammunition that niether fragements nor severely crushes upon impactm these rounds form a tough super structure at the edge's of thier core's impact. While not offering more than marginal armor pentrating capabilties, the ammunition transfers all stored energy into kinetic force to its target. Effectively pushing the target, continous or simultaneous use of the ammunition can stun opponents and even knock them flat on their back.
+/// DAM x5.5x, -1DT, Condition X1, -5% Velocity, +5% DMG to Sythetics, +5% DMG to
+/// Organics, +90% blunt damage transfer
 
 /// Sledgehammer Rounds
 ///  Squash projectiles which flatten on impact knock opponents completely off their feet. Coated with polonium to induce radiation sickness in targets(toxic damage?). Trade off for increased heat absorption.
+/// DAM x0.85, -28DT, Condition X1, +35% Velocity, +5% DMG to Sythetics, +5% DMG to
+/// Organics, +5% Fire Damage, Armor 1.3X, +30% blunt damage transfer
 
 /// . Harpoon Rounds
 /// Harpoon Rounds are built of material condenses on impact to pentrate armor, then
@@ -216,7 +217,9 @@ Armor Upgrades
 Armor Plating
 Ablative Coating
 Energized Plating
-Dragonskin
+/// . Dragonskin
+/// Designed to overcome the high impact, high caliber ammunition, this armor acts with chemical fibers to contract around zones of impact. Increasing its effectiveness against single shot, large rifle rounds, this armor was widely adopted by wealthy nation seeking to help their soldiers survive even small bursts of enemy machine gun fire. Sadly, it is overcome by overloading its chemical states with high volumes of fire. Even long bursts of small pistol caliber ammo with will open its wearer to a momentary lapse in protection, able to be exploited by a quick follow up high caliber round. Worse still, tempature based, direct energy weapons completely negate the effectiveness of the system. Despite such pitfalls the armor remains popular especially in units combating scouting parties and entrenched sniper sentries. Additionally, appearing in armor pieces for parts of the body too small to be weighted down by convential plating.
+-15% Against 
 Hardened Weave
 Energized Weave
 First Aid Interface
