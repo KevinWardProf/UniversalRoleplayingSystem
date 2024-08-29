@@ -84,7 +84,8 @@ The lower your intelligence and the higher your luck increases the chance of ear
 /// DAM x0.85, -20DT, Condition x1, +10% Velcoity, -30% blunt damage transfer
 /// . Armor Piercing Discarding Sabot
 /// Instead of the entire shell, these rounds use small, dense arrow-like cores as
-/// pentrators. Discarding a soft casing called a sabot after exiting the barrel, it can /// focus all expended energy into a small area upon deformation leading to immense
+/// pentrators. Discarding a soft casing called a sabot after exiting the barrel, it can
+/// focus all expended energy into a small area upon deformation leading to immense
 /// pentration. Made out of a tougher tungsten alloy, the core is less susceptible to
 /// shattering upon tougher armor, but has no after penetration effects.
 /// DAM x0.85, -25DT, Condition X1, +35% Velocity, -10% blunt damage transfer
@@ -137,6 +138,21 @@ The lower your intelligence and the higher your luck increases the chance of ear
 /// Designed to shred flesh and other organic matter, these rounds eviserate  
 /// DAM 2.75x, DT x6,  Condition x1.5, Spread x1, %40 damage to Organics, -10% DMG to
 /// Synthetics
+/// . Flechette
+/// Typically favored in the context of shotguns, these rounds have had their traditional
+/// ballistic cores replaced with tiny, sharp metal darts. Great for armor penetration, but
+/// suffering from a reduction in blunt force, these low velocity rounds soar true with the
+/// help of stabilizing fins. Often spalling upon impact these rounds are not fragible upon
+/// impact. Maintaining their shape, they pierce their target in a narrow spread of pinpoint
+/// penatrators. Often encased in their a type of marking powder, it is readily apparent
+/// where the shooter has landed their hits.
+/// DAM 0.9x, -22DT,  Condition x1, Spread x0.8, -30% Velocity, %30 damage to Organics, -10% DMG to Synthetics, -10% Blunt transfer force, +2 PER to User, -2 PER in target
+
+
+/// . Beanbag Rounds
+/// Small steel bb's encased in a thin Kelvar bag, these rounds are limited to their application 
+Bean bag rounds are less-than-lethal shotgun ammunition commonly used by law enforcement to quell riot situations. Bean bags inflict Fatigue Damage and stun a target momentarily. For soft targets, bean bag rounds can still drain their health and kill them with multiple shots.
+/// . Rubber
 /// . Hammerhead Rounds
 /// Oblong ammunition that niether fragements nor severely crushes upon impactm these rounds form a tough super structure at the edge's of thier core's impact. While not offering more than marginal armor pentrating capabilties, the ammunition transfers all stored energy into kinetic force to its target. Effectively pushing the target, continous or simultaneous use of the ammunition can stun opponents and even knock them flat on their back.
 /// DAM x5.5x, -1DT, Condition X1, -5% Velocity, +5% DMG to Sythetics, +5% DMG to
@@ -181,19 +197,65 @@ Instead of relying on mass and velocity, these rounds use chemical reactions to 
 ///     --High Explosive
 ///     Detonate on Impact, has Blast Radius, generates a lot of heat, weapon physics force, and has a damage bonus
 /// Shield Piercing Ammunition
-///     --Phasic / Proton Rounds
-///     Instead of Projectiles, upgraded weapons release charged particle bolts that can bypass shields. Bypass shield by percentage, reduced damage per shot.
-/// Hyper Velocity
-///     --High Velocity
-///     Fly faster, penetrate faster.
-/// Toxic Ammunition
-///     --Chemical Rounds
-///     Popular with pirates, criminals, deal toxic damage per shot over time. Does not deal damage until Poision or Toxic meeting is filled, then deals per shot damage.
+
+/// . Pepperball
+/// . Poison Dipped
+/// Often nothing more than standard leaded full metal jakcet or even more advanced armor
+/// piercing/hollow point rounds with a small dose of hazardous compounds, ammunition like
+/// this remains something of a myth. Confined to great tales of Shakespearean drama,
+/// sensationalist fears of hunting gone awry and dark tales of no name, government
+/// assassins, poison inflicting ammos remain a shunned and often ill effective choice.
+/// Sacrificing realibility and causing great fouling, these rounds dipped in naturally
+/// occuring animal poisons, simple compound mixtures or even human feces can taint even the
+/// hardiest of organic targets. Dealing a passively increasing damage over time upon status
+/// infliction, the rounds offer no benefits to dealing with synthetic or heavily armored
+/// foes. Only by striking hardened organic foes in vulnerable spots can the rounds continue
+/// build. Despite this, poisions are a great way to stop the healing of targets or give a
+/// slight edge in dynamic exchanges of fire.
+/// DAM x1, DT x1, Condition X1.2, 1x Spread, +15% DMG to Organics, 55% Poison Damage -50
+/// Karma Per Kill
+/// . Toxic Manufactured
+/// Specialized rounds constructed with sub compartments or internal air pockets for mixing, these rounds induce sickness into targets with deadly artificial toxins, violatile chemical mixtures and designed viruses. Popular with those never intending legal behavior, these rounds are heavily looked down upon. 
+/// DAM x1, DT x1, Condition X1.2, 1x Spread, +15% DMG to Organics, 55% Poison Damage -75 /// Karma Per Kill
 ///     --Polonium Round
 ///     Stamped with miniscule amount of radioactive polonium into every round, poisioning enemy targets and preventing enemy health regeneration.
 /// Anti-Tech?
 ///     --Radioactive Rounds
 ///     Radioactive materials induce low level radition sickness in targets, reducing cooldown rates for ability uses.
+
+/// . 
+/// . Depleted Uranium Disacarding Sabot
+/// Known by many names, D.U.D.S, Black Tips, Demon Rounds, Darkstar Bullets, this rare,
+/// experimental ammunition offers a tightly compacted load, laced with alpha ray emitting
+/// radioloical material. Made with a plastic buffer between the round and powder, the
+/// compression on the round's primer reduces chances for misfire with the obvious hazard of
+/// explosive, radioligcal particles entering the user's airways. Very similar to it's Armor
+/// Piercing Discarding Sabot cousin, this round throws all of its core's mass into a small
+/// area upon deformation leading to deep pentration. Self sharpening upon impact, this
+/// pyrophoric, depleted uranium core, ignites upon impact, melting armor and spalling in
+/// it's target's interior. While this round is less susceptible to shattering upon tougher
+/// armor, it offers less capability as the round intends to induce poisioning in its
+/// target. Due to this, the unranium oxide produced upon firing, though minute, is a hazard
+/// and use in high rate of weapons may inflict sever radition poisioning in the user.
+/// DAM x0.95, -25DT, Condition X0.50, +35% Velocity, +15% DMG to Sythetics, +40% DMG to
+/// Organics, +5% Fire Damage, +5% Toxic Damage, +55% Radiological Damage, -15% jam chance,
+/// -10% blunt damage transfer, STR > 7 to dismantle, -150 Karma per kill
+/// . Deleted Uranium Fletchette Fin Stabalized Sabot
+/// A flechette conterpart to the depleted unranium discarding sabot round, these tiny metal
+/// arrows sit snug inside of a unique casing. This highly advanced housing is made of a
+/// nylon, glass composite hybrid material that pulls the fletchettes along the barrel of
+/// the weapon at hyper velocity. Spewing a group of unranium nails at velocities higher any
+/// traditional armor piercing or hollow pointed ammunition, the self sharpening arrows
+/// throw their force across a small area of effect. Deforming in multiple, molten points of
+/// ignition, the fletchettes spall into their target's interior while also dealing great
+/// amounts of radiological poisioning. Sadly due to their finely-tuned and complex nature,
+/// rounds of this manufacture have more vectors of misfires. No greater safety against
+/// misfires is in their construction. Less susceptible to shattering upon tougher
+/// armor, the unranium oxide produced upon firing, though minute, is a hazard
+/// and use in high rate of weapons may inflict severe radition poisioning in the user.
+/// DAM x0.95, -31DT, Condition X1.1, +95% Velocity, +15% DMG to Sythetics, +40% DMG to
+/// Organics, +5% Fire Damage, +5% Toxic Damage, +55% Radiological Damage,
+/// -20% blunt damage transfer, STR > 7 to dismantle, -150 Karma per kill
 /// </summary>
 
 #7.Weapon Attachments
