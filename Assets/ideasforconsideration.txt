@@ -32,9 +32,9 @@ The lower your intelligence and the higher your luck increases the chance of ear
 /// making marginal resources gains, late investment means creating the perfect ammunition /// for the right weapon. Hand Loaded Custom Ammunition is found no where in the game.
 /// . Armor Piercing
 /// Armor Piercing ammunition is designed for punching through armor plating and for this
-/// purpose, they have a greatly strengthened case with a specially hardened core and shaped
-/// nose. Due to the high velocity and penetrative properties of the round, the limited
-/// expansion.
+/// purpose, they have a greatly strengthened case with a specially hardened core and
+/// shaped nose. Due to the high velocity and penetrative properties of the round, the
+/// limited expansion.
 /// DMG x0.90, -15 DT, Condition X1, Spread X1, +15% DMG to Synthetics
 /// . Armor Piercing Capped
 /// Like traditional Armor Piercing ammunition this type is designed for defeating armor
@@ -44,8 +44,8 @@ The lower your intelligence and the higher your luck increases the chance of ear
 /// . Armor Piercing Ballistic Capped
 /// Shaped with the same softer material as APC ammo, the nose on this ammunition is
 /// molded for improved aerodynamics. Overcoming the velocity pitfalls of APC the ammo,
-/// doesn't add any additional penetration directly. Instead the round improves performance
-/// at longer distances and explodes upon impact.
+/// doesn't add any additional penetration directly. Instead the round improves
+/// performance at longer distances and explodes upon impact.
 /// DAM x0.90, -15DT, Condition x1, Spread 1x, +15% DMG to Synthetics, +30% velocity
 /// . Armor Piercing Capped Ballistic Capped
 /// Combining the nose cone of the Armor Piercing Capped and the ballistic cap of the
@@ -53,7 +53,7 @@ The lower your intelligence and the higher your luck increases the chance of ear
 /// Offering increased penetration and velocity without sacrificing
 /// DAM x0.90, -20DT, Condition x1, Spread 1x, +15% DMG to Sythethics, +30% Velocity
 /// . Armor Piercing High Explosive
-/// Armor Piercing ammunition with iternal explosive filler on the inside. After pentrating armor, a timed fused actives the explosives dealing additional damage on top
+/// Armor Piercing ammunition with iternal explosive filler on the inside. After pentrating armor, a timed fused actives the explosives dealing additional damage on top of the physically pentrating projectile.
 /// DAM x0.90, -10DT, Conditiond x1, Spread 1x, +15% DMG to Sythethics, +10% DMG to
 /// Organics, +10% Explosive Damage
 /// . Armor Piercing High Explosive Capped
@@ -143,9 +143,9 @@ The lower your intelligence and the higher your luck increases the chance of ear
 /// ballistic cores replaced with tiny, sharp metal darts. Great for armor penetration, but
 /// suffering from a reduction in blunt force, these low velocity rounds soar true with the
 /// help of stabilizing fins. Often spalling upon impact these rounds are not fragible upon
-/// impact. Maintaining their shape, they pierce their target in a narrow spread of pinpoint
-/// penatrators. Often encased in their a type of marking powder, it is readily apparent
-/// where the shooter has landed their hits.
+/// impact. Maintaining their shape, they pierce their target in a narrow spread of
+/// pinpoint penatrators. Often encased in their a type of marking powder, it is readily
+/// apparent where the shooter has landed their hits.
 /// DAM 0.9x, -22DT,  Condition x1, Spread x0.8, -30% Velocity, %30 damage to Organics, -10% DMG to Synthetics, -10% Blunt transfer force, +2 PER to User, -2 PER in target
 
 
@@ -170,19 +170,68 @@ Bean bag rounds are less-than-lethal shotgun ammunition commonly used by law enf
 /// considered highly unethical.
 /// Req: Guns 90
 /// DMG x1.90, -30 DT, Condition x1, Spread x1, -100 Karma per kill, -15% DMG to sythetics
-/// +60% DMG to organics
+/// +90% DMG to organics
 /// . High Explosive
-Instead of relying on mass and velocity, these rounds use chemical reactions to penetrate armor. Unaffected by velocity penalities, these rounds have the same pentration over all distances. However, this leads the ammunition to never overpentrate as the ammunition explodes upon impact. Offering no pentrative capabilities this round defeats its target's armor with the use of high explosives and otherwise deals massive overpressure from compressed air shockwaves. 
-/// DAM 5x, DTx1, +100% Explosive Damage, 
+/// Instead of relying on mass and velocity, these rounds use chemical reactions to
+/// penetrate armor. Unaffected by velocity penalities, these rounds have the same
+/// pentration over all distances. However, this leads the ammunition to never
+/// overpentrate as the ammunition explodes upon impact. Offering no pentrative
+/// capabilities this round defeats its target's armor with the use of high explosives and
+/// otherwise deals massive overpressure from compressed air shockwaves. 
+/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread
 /// . High Explosive Timed Fuse
-/// . High Explosive 
+/// Instead of relying on mass and velocity, these rounds use chemical reactions to
+/// penetrate armor. Unaffected by velocity penalities, these rounds have the same
+/// pentration over all distances. However, this makes the round easy to defeat by cover.
+/// Traditionally used as a anti aircraft round, this type of high explosive round works
+/// off of a timed fuse rather than explode on impact. Functionally the same as it non
+/// timed counterpart, unless used in connjuction with a rangfinding device its
+/// effectiveness is limited. Useful in cases where an explosive needs to be deployed at a
+/// particular time and place, this round explodes only when its timer detonates. Can be
+/// used as an impromptu landmine or delayed attack. 
+/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread
 /// . High Explosive Anti Tank
 /// . High Explosive Variable Timed
+/// Instead of relying on mass and velocity, these rounds use chemical reactions to
+/// penetrate armor. Unaffected by velocity penalities, these rounds have the same
+/// pentration over all distances. However, this makes the round easy to defeat by cover.
+/// An improved version of the High Explosive Timed Fuse, with a variable fuse this round
+/// is able to detect when its own distance to its target. As a result accuracy is far
+/// less important and the round explodes within a certain distance of its target. Highly
+/// effective against aircraft, these round see niche deployments against ground targets
+/// in cases where targets must be stuck behind cover.
+/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread
 /// . High Explosive Grenade
--50% Velocity
+/// Instead of relying on mass and velocity, these rounds use chemical reactions to
+/// penetrate armor. Unaffected by velocity penalities, these rounds have the same
+/// pentration over all distances. However, this makes the round easy to defeat by hard
+/// surfaces. Specifically designed to be fire from recoiless rifles. Due to their often
+/// unconventional charges and weight distributions, this round suffers a velocity penalty.
+/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread, -50% Velocity
 /// . Fragmentation Explosive Round
+/// Instead of relying on mass and velocity, these rounds use chemical reactions to
+/// penetrate armor. Unaffected by velocity penalities, these rounds have the same
+/// pentration over all distances. However, this makes the round easy to defeat by hard
+/// surfaces. Utitlizing fragmenting casings, the round deals an explosive, concussive
+/// force and then hits its target, whether internally or external, with a storm of
+/// fragmentation. Inducing heavy bleeding in an organic target, this round is designed to
+/// be used against organics. Useful to destory vegetation, soft cover, armored tracks,
+/// barrels.
+/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread, +100% Bleed
 /// . Rocket
+/// Instead of relying on mass and velocity, these rounds use chemical reactions to
+/// penetrate armor. Unaffected by velocity penalities, these rounds have the same
+/// pentration over all distances. However, this makes the round easy to defeat by hard
+/// surfaces. An unguided, self propelling high explosive round, this round soars towards
+/// its target and detonates upon impact.
+/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread, +100% Velocity
 /// High Explosive Squash Head
+/// Instead of relying on mass and velocity, these rounds use chemical reactions to
+/// penetrate armor. Unaffected by velocity penalities, these rounds have the same
+/// pentration over all distances. However, this makes the round easy to defeat by hard
+/// surfaces. Using a different type of explosive filler made of plastic, this round uses
+/// the target's armor against itself.   
+/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread, +100% Velocity
 /// Incendiary Rounds
 ///     --Incendiary / Inferno Rounds
 ///     Consist of a thermite paste which clings to, and burns through nearly any known substance.
