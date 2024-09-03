@@ -134,10 +134,12 @@ The lower your intelligence and the higher your luck increases the chance of ear
 /// feeding issues found in full wade cutters in, this round additionally mitigates recoil,
 /// but suffers from additional fouling upon inigition.
 /// DAM 1.2x, -6DT, Condition x3, Spread x1, -10% recoil, -5% jam chance
+
 /// . Shredder Rounds
 /// Designed to shred flesh and other organic matter, these rounds eviserate  
 /// DAM 2.75x, DT x6,  Condition x1.5, Spread x1, %40 damage to Organics, -10% DMG to
 /// Synthetics
+
 /// . Flechette
 /// Typically favored in the context of shotguns, these rounds have had their traditional
 /// ballistic cores replaced with tiny, sharp metal darts. Great for armor penetration, but
@@ -178,7 +180,7 @@ Bean bag rounds are less-than-lethal shotgun ammunition commonly used by law enf
 /// overpentrate as the ammunition explodes upon impact. Offering no pentrative
 /// capabilities this round defeats its target's armor with the use of high explosives and
 /// otherwise deals massive overpressure from compressed air shockwaves. 
-/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread
+/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread, +500% blunt damage transfer
 /// . High Explosive Timed Fuse
 /// Instead of relying on mass and velocity, these rounds use chemical reactions to
 /// penetrate armor. Unaffected by velocity penalities, these rounds have the same
@@ -189,8 +191,7 @@ Bean bag rounds are less-than-lethal shotgun ammunition commonly used by law enf
 /// effectiveness is limited. Useful in cases where an explosive needs to be deployed at a
 /// particular time and place, this round explodes only when its timer detonates. Can be
 /// used as an impromptu landmine or delayed attack. 
-/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread
-/// . High Explosive Anti Tank
+/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread, +500% blunt damage transfer
 /// . High Explosive Variable Timed
 /// Instead of relying on mass and velocity, these rounds use chemical reactions to
 /// penetrate armor. Unaffected by velocity penalities, these rounds have the same
@@ -200,14 +201,14 @@ Bean bag rounds are less-than-lethal shotgun ammunition commonly used by law enf
 /// less important and the round explodes within a certain distance of its target. Highly
 /// effective against aircraft, these round see niche deployments against ground targets
 /// in cases where targets must be stuck behind cover.
-/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread
+/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread, +500% blunt damage transfer
 /// . High Explosive Grenade
 /// Instead of relying on mass and velocity, these rounds use chemical reactions to
 /// penetrate armor. Unaffected by velocity penalities, these rounds have the same
 /// pentration over all distances. However, this makes the round easy to defeat by hard
 /// surfaces. Specifically designed to be fire from recoiless rifles. Due to their often
 /// unconventional charges and weight distributions, this round suffers a velocity penalty.
-/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread, -50% Velocity
+/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread, -50% Velocity, +700% blunt damage transfer
 /// . Fragmentation Explosive Round
 /// Instead of relying on mass and velocity, these rounds use chemical reactions to
 /// penetrate armor. Unaffected by velocity penalities, these rounds have the same
@@ -217,31 +218,183 @@ Bean bag rounds are less-than-lethal shotgun ammunition commonly used by law enf
 /// fragmentation. Inducing heavy bleeding in an organic target, this round is designed to
 /// be used against organics. Useful to destory vegetation, soft cover, armored tracks,
 /// barrels.
-/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread, +100% Bleed
+/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread, +100% Bleed, +200% blunt damage transfer
 /// . Rocket
 /// Instead of relying on mass and velocity, these rounds use chemical reactions to
 /// penetrate armor. Unaffected by velocity penalities, these rounds have the same
 /// pentration over all distances. However, this makes the round easy to defeat by hard
 /// surfaces. An unguided, self propelling high explosive round, this round soars towards
 /// its target and detonates upon impact.
-/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread, +100% Velocity
+/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread, +100% Velocity, +100% blunt damage transfer
 /// High Explosive Squash Head
 /// Instead of relying on mass and velocity, these rounds use chemical reactions to
 /// penetrate armor. Unaffected by velocity penalities, these rounds have the same
 /// pentration over all distances. However, this makes the round easy to defeat by hard
 /// surfaces. Using a different type of explosive filler made of plastic, this round uses
-/// the target's armor against itself.   
-/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread, +100% Velocity
-/// Incendiary Rounds
+/// the target's armor against itself. Upon impact, the round's plastic explosive squishes
+/// the shape of the enemy armor. Forming, a tightly compacted, shaped explosive, when the
+/// round detonates, a shockwave penetrates through the armor's extorior dealing immense
+/// to its target's interior cavity. Causing armor to rupture, at high speeds armor
+/// fragments are flung around the target's interior.
+/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread, damage to armor is
+/// dealt to target instead, -10% DMG to Organics, +10% DMG to Synthethics, +100% blunt damage transfer
+/// . High Explosive Anti Tank
+/// Made of a composite of different materials, this round consists of an explosive charge, detonator, and a cone
+/// shaped metal liner. Often copper, the metal linear collapses upon round impact and detonatation, forming a high
+/// penetration stream of molten metal. Acting like cored kinetic penetrators, this round's molten jet's high velocity
+/// can eat through almost any armor. The drawback is that the molten jet of metal has no spalling and as such focus'
+/// all damage into a tight area.
+/// DAM 0.75x, -28DT, +100% Explosive Damage, 1x Condition, 1x Spread, -100% blunt damage transfer, +50% DMG to
+/// synthetics, +10% DMG to Organics, +20% Fire Damage
+/// . High Explosive Anti Tank Fin Stabilized
+/// A modernization of the High Explosive Anti Tank round, this variant comes equipped with fin stabilizers and using
+/// better explosives chemicals. Regular High Explosive Anti Tank rounds are actually suspectible to suffering
+/// negative effects to round spin. When the round spins, the molten jet formed can be more spread out causing the
+/// round to loss potential pentration. With fins, the round is able to focus its jet more suiccently. 
+/// DAM 0.80x, -34DT, +100% Explosive Damage, 1x Condition, 1x Spread, -100% blunt damage transfer, +55% DMG to
+/// synthetics, +5% DMG to Organics, +20% Fire Damage
+/// . High Explosive Anti Tank Multi-Purpose
+/// A rare type of ammunition, this round is a High Explosive Anti Tank Fin Stabilized round with a variable timed
+/// fuse. Detonating at close proximity to its target, the round can be useful against ground targets, but also air 
+/// targets. 
+/// DAM 0.75x, -28DT, +100% Explosive Damage, 1x Condition, 1x Spread, -100% blunt damage transfer, +50% DMG to
+/// synthetics, +10% DMG to Organics, +20% Fire Damage
+/// . High Explosive Anti Tank Grenade 
+/// Like its High Explosive Grenade counterpart, these rounds are specifically designed to be fired from recoiless
+/// rifles. Flying at a lower velocity, these rounds still connect with as much kinetic and explosive force as the
+/// traditional High Explosive Anti Tank Fin Stabilized rounds. 
+/// DAM 0.80x, -34DT, +100% Explosive Damage, 1x Condition, 1x Spread, -50% Velocity, +100% blunt damage transfer
+/// +55% DMG to Synthetics, +5% DMG to Organics, +20% Fire Damage
+
+//TODO rework missiles to account for guidance type and for radar types. Air missiles have more radar types, whereas ground missiles have different guidance types. 
+
+/// . Anti Tank Guided Missle (MCLOS)
+/// A guided, self propelled High Explosive Anti Tank round, these types of munitions are composed of a launch motor,
+/// a heat warhead, and a guidance system. These are several variants based on guidance systems. Manual command to
+/// line of sight. A primative type of guidance, this type of missile requires the user to maintain line of sight 
+/// with the target and steer the projectile into their desired point of impact. 
+/// DAM 0.80x, -34DT, +100% Explosive Damage, 1x Condition, 1x Spread, +100% blunt damage transfer
+/// +55% DMG to Synthetics, +5% DMG to Organics, +20% Fire Damage
+/// . Anti Tank Guided Missle (SACLOS)
+/// A guided, self propelled High Explosive Anti Tank round, these types of munitions are composed of a launch motor,
+/// a heat warhead, and a guidance system. These are several variants based on guidance systems. Semi automatic
+/// command to line of sight requires the operator to matain line of sight on their target and continually paint the
+/// target to designation to the missile where it should fly towards. 
+/// DAM 0.80x, -34DT, +100% Explosive Damage, 1x Condition, 1x Spread, +100% blunt damage transfer
+/// +55% DMG to Synthetics, +5% DMG to Organics, +20% Fire Damage
+/// . Anti Tank Guided Missle (FAF)
+/// A guided, self propelled High Explosive Anti Tank round, these types of munitions are composed of a launch motor,
+/// a heat warhead, and a guidance system. These are several variants based on guidance systems. Fire and forget
+/// system's predetermine the target's spatial coordinates, direction of travel, velocity of the target prior to the
+/// missile's ignition. This data is then programmed into the missile and handles all future means of movement. As a
+/// result, this allows the user to lock their target, fire and move onto the next target.
+/// DAM 0.80x, -34DT, +100% Explosive Damage, 1x Condition, 1x Spread, +100% blunt damage transfer
+/// +55% DMG to Synthetics, +5% DMG to Organics, +20% Fire Damage
+
+
+/// . Anti Tank Guided Missile Overfly Top Attack
+/// A guided, self propelled High Explosive Anti Tank round, these types of munitions are composed of a launch motor,
+/// a heat warhead, and a guidance system. These are several variants based on guidance systems. Fire and forget
+/// system's predetermine the target's spatial coordinates, direction of travel, velocity of the target prior to the
+/// missile's ignition. This data is then programmed into the missile and handles all future means of movement. As a
+/// result, this allows the user to lock their target, fire and move onto the next target.
+/// Rather than fly directly at its target horizontally, this fire and forget missle in its first stage climbs high
+/// above its target to then rapidly descend upon its target's most vulnerable weakspot, the top.
+/// DAM 0.80x, -34DT, +100% Explosive Damage, 1x Condition, 1x Spread, +100% blunt damage transfer
+/// +55% DMG to Synthetics, +5% DMG to Organics, +20% Fire Damage, +100% Critical DMG
+/// . Anti Tank Guided Missile Proximity Fuse (MCLOS)
+/// A guided, self propelled High Explosive Anti Tank round, these types of munitions are composed of a launch motor,
+/// a heat warhead, and a guidance system. These are several variants based on guidance systems. Manual command to
+/// line of sight. A primative type of guidance, this type of missile requires the user to maintain line of sight 
+/// with the target and steer the projectile into their desired point of impact. 
+/// Guided to its target, the missile detects its own proximity to its target with a variable fuse. Once within the
+/// desired range, the missile explodes making it useful not only against ground, but air targets.
+/// DAM 0.80x, -34DT, +100% Explosive Damage, 1x Condition, 1x Spread, +100% blunt damage transfer
+/// +55% DMG to Synthetics, +5% DMG to Organics, +20% Fire Damage
+/// . Anti Tank Guided Missile Proximity Fuse (SACLOS)
+/// A guided, self propelled High Explosive Anti Tank round, these types of munitions are composed of a launch motor,
+/// a heat warhead, and a guidance system. These are several variants based on guidance systems. Semi automatic
+/// command to line of sight requires the operator to matain line of sight on their target and continually paint the
+/// target to designation to the missile where it should fly towards
+/// Guided to its target, the missile detects its own proximity to its target with a variable fuse. Once within the
+/// desired range, the missile explodes making it useful not only against ground, but air targets.
+/// DAM 0.80x, -34DT, +100% Explosive Damage, 1x Condition, 1x Spread, +100% blunt damage transfer
+/// +55% DMG to Synthetics, +5% DMG to Organics, +20% Fire Damage
+/// . Anti Tank Guided Missile Proximity Fuse (FAF)
+/// A guided, self propelled High Explosive Anti Tank round, these types of munitions are composed of a launch motor,
+/// a heat warhead, and a guidance system. These are several variants based on guidance systems. Fire and forget
+/// system's predetermine the target's spatial coordinates, direction of travel, velocity of the target prior to the
+/// missile's ignition. This data is then programmed into the missile and handles all future means of movement. As a
+/// result, this allows the user to lock their target, fire and move onto the next target.
+/// Guided to its target, the missile detects its own proximity to its target with a variable fuse. Once within the
+/// desired range, the missile explodes making it useful not only against ground, but air targets.
+/// DAM 0.80x, -34DT, +100% Explosive Damage, 1x Condition, 1x Spread, +100% blunt damage transfer
+/// +55% DMG to Synthetics, +5% DMG to Organics, +20% Fire Damage
+/// . Anti Tank Guided Missile Tandem Charge (MCLOS)
+/// A guided, self propelled High Explosive Anti Tank round, these types of munitions are composed of a launch motor,
+/// a heat warhead, and a guidance system. These are several variants based on guidance systems. Manual command to
+/// line of sight. A primative type of guidance, this type of missile requires the user to maintain line of sight 
+/// with the target and steer the projectile into their desired point of impact. 
+/// This missile uses a twin stage warhead to overcome its target's armor. With a front warhead mounted ahead of the
+/// guidance system, the first warhead detonates to clear away the first layer of armor. Often explosive
+/// reactive armor, once the first layer is removed the second warhead is detonated defeating the primary armor of its
+/// target.
+/// DAM 0.80x, -40DT, +100% Explosive Damage, 1x Condition, 1x Spread, +100% blunt damage transfer
+/// +55% DMG to Synthetics, +5% DMG to Organics, +20% Fire Damage, 2nd Stage Charge
+/// . Anti Tank Guided Missile Tandem Charge (SCLOS)
+/// A guided, self propelled High Explosive Anti Tank round, these types of munitions are composed of a launch motor,
+/// a heat warhead, and a guidance system. These are several variants based on guidance systems. Semi automatic
+/// command to line of sight requires the operator to matain line of sight on their target and continually paint the
+/// target to designation to the missile where it should fly towards. 
+/// This missile uses a twin stage warhead to overcome its target's armor. With a front warhead mounted ahead of the
+/// guidance system, the first warhead detonates to clear away the first layer of armor. Often explosive
+/// reactive armor, once the first layer is removed the second warhead is detonated defeating the primary armor of its
+/// target.
+/// DAM 0.80x, -40DT, +100% Explosive Damage, 1x Condition, 1x Spread, +100% blunt damage transfer
+/// +55% DMG to Synthetics, +5% DMG to Organics, +20% Fire Damage, 2nd Stage Charge
+/// . Anti Tank Guided Missile Tandem Charge (FAF)
+/// A guided, self propelled High Explosive Anti Tank round, these types of munitions are composed of a launch motor,
+/// a heat warhead, and a guidance system. These are several variants based on guidance systems. Fire and forget
+/// system's predetermine the target's spatial coordinates, direction of travel, velocity of the target prior to the
+/// missile's ignition. This data is then programmed into the missile and handles all future means of movement. As a
+/// result, this allows the user to lock their target, fire and move onto the next target.
+/// This missile uses a twin stage warhead to overcome its target's armor. With a front warhead mounted ahead of the
+/// guidance system, the first warhead detonates to clear away the first layer of armor. Often explosive
+/// reactive armor, once the first layer is removed the second warhead is detonated defeating the primary armor of its
+/// target.
+/// DAM 0.80x, -40DT, +100% Explosive Damage, 1x Condition, 1x Spread, +100% blunt damage transfer
+/// +55% DMG to Synthetics, +5% DMG to Organics, +20% Fire Damage, 2nd Stage Charge
+
+/// . Anti Tank Guided Missile High Explosive
+/// Rather than use a shaped High Explosive Anti Tank charge like most ATGMs, this missile trades a HEAT munition for
+/// a high explosive filler. Functionally like any rocket or high explosive round this round defeats armor the same
+/// way except with the help of guidance from the user or a targeting system.
+/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread, +500% blunt damage transfer
+/// . Anti Tank Guided Missile Armor Piercing
+/// A self propelled kinetic pentrator, this missile essentially functions as a guided armor piercing round. However,
+/// unlike traditional armor piercing this round builds terminal velocity through its launch motor. Working much like
+/// an enlarged Armor Piercing Fin Stabilized Discarding Sabot, the missile gains velocity over time. The further it
+/// travels the more armor the round will pentrate.
+/// DMG x0.90, -15 DT, Condition X1, Spread X1, +15% DMG to Synthetics
+/// . Surface to Air Missile
+/// A fire and forget proximity fused missile, this munition is designed specifically against the softer 
+/// . Smoke
+/// Useful to conceal your position or your obscure your target's vision, this round deals minimal physical damage and
+/// is more so a utility not meant to imflict hevy damage to its target. 
+/// DMG x1.10, DTx1, Condition X1, Spread X1, Create Smokescreen
+///
 ///     --Incendiary / Inferno Rounds
 ///     Consist of a thermite paste which clings to, and burns through nearly any known substance.
 /// Cryo Rounds
 ///     --Cryo Rounds
 ///     Cooling Lasers collapse ammunition into small Bose-Einstein condensate - a mass of super-cooled subatomic particles - capable of snap-freezing impacted objects
+/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread, +100% Velocity
 ///     --Snowblind Rounds
 ///     Inflict massive damage and destabilize enemies, reducing their accuracy. Reduces Enemy Accuracy, Rate of Fire of Weapon, Deals extra damage
+/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread, +100% Velocity
 ///     --Snap Freeze?
 ///     Slow movement, reflexive times.
+/// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread, +100% Velocity
 /// Explosive Rounds
 ///     --High Explosive
 ///     Detonate on Impact, has Blast Radius, generates a lot of heat, weapon physics force, and has a damage bonus
