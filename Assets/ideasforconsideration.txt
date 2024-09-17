@@ -134,7 +134,6 @@ The lower your intelligence and the higher your luck increases the chance of ear
 /// feeding issues found in full wade cutters in, this round additionally mitigates recoil,
 /// but suffers from additional fouling upon inigition.
 /// DAM 1.2x, -6DT, Condition x3, Spread x1, -10% recoil, -5% jam chance
-
 /// . Shredder Rounds
 /// Designed to shred flesh and other organic matter, these rounds eviserate  
 /// DAM 2.75x, DT x6,  Condition x1.5, Spread x1, %40 damage to Organics, -10% DMG to
@@ -376,6 +375,7 @@ Bean bag rounds are less-than-lethal shotgun ammunition commonly used by law enf
 /// an enlarged Armor Piercing Fin Stabilized Discarding Sabot, the missile gains velocity over time. The further it
 /// travels the more armor the round will pentrate.
 /// DMG x0.90, -15 DT, Condition X1, Spread X1, +15% DMG to Synthetics
+
 /// . Surface to Air Missile
 /// A fire and forget proximity fused missile, this munition is designed specifically against the softer 
 /// . Smoke
@@ -395,12 +395,11 @@ Bean bag rounds are less-than-lethal shotgun ammunition commonly used by law enf
 ///     --Snap Freeze?
 ///     Slow movement, reflexive times.
 /// DAM 5x, DTx1, +100% Explosive Damage, 1x Condition, 1x Spread, +100% Velocity
-/// Explosive Rounds
-///     --High Explosive
-///     Detonate on Impact, has Blast Radius, generates a lot of heat, weapon physics force, and has a damage bonus
-/// Shield Piercing Ammunition
 
 /// . Pepperball
+/// A useful utility round, this type of ammunition serves as a mainly less lethal option
+/// heavily reducing their target's perception, inducing fatigue and 
+
 /// . Poison Dipped
 /// Often nothing more than standard leaded full metal jakcet or even more advanced armor
 /// piercing/hollow point rounds with a small dose of hazardous compounds, ammunition like
@@ -408,49 +407,61 @@ Bean bag rounds are less-than-lethal shotgun ammunition commonly used by law enf
 /// sensationalist fears of hunting gone awry and dark tales of no name, government
 /// assassins, poison inflicting ammos remain a shunned and often ill effective choice.
 /// Sacrificing realibility and causing great fouling, these rounds dipped in naturally
-/// occuring animal poisons, simple compound mixtures or even human feces can taint even the
-/// hardiest of organic targets. Dealing a passively increasing damage over time upon status
-/// infliction, the rounds offer no benefits to dealing with synthetic or heavily armored
-/// foes. Only by striking hardened organic foes in vulnerable spots can the rounds continue
-/// build. Despite this, poisions are a great way to stop the healing of targets or give a
-/// slight edge in dynamic exchanges of fire.
-/// DAM x1, DT x1, Condition X1.2, 1x Spread, +15% DMG to Organics, 55% Poison Damage -50
-/// Karma Per Kill
+/// occuring animal poisons, simple compound mixtures or even human feces can taint even
+/// the hardiest of organic targets. Dealing a passively increasing damage over time upon /// status infliction, the rounds offer no benefits to dealing with synthetic or heavily
+/// armored foes. Only by striking hardened organic foes in vulnerable spots can the
+/// rounds continue build. Despite this, poisions are a great way to stop the healing of
+/// targets or give a slight edge in dynamic exchanges of fire. Additionally, these rounds
+/// often tumble terribly within their target, making almost 90 degree turns while making
+/// temporary cavities inside their victims. Like the legendary 7N6 rounds of Soviet
+/// Afghanistan, these rounds are heinous in damage to organic life.
+/// DAM x1.3, DT x1.1, Condition X1.2, 1x Spread, +15% DMG to Organics, 55% Poison Damage
+/// -50 Karma Per Kill
 /// . Toxic Manufactured
-/// Specialized rounds constructed with sub compartments or internal air pockets for mixing, these rounds induce sickness into targets with deadly artificial toxins, violatile chemical mixtures and designed viruses. Popular with those never intending legal behavior, these rounds are heavily looked down upon. 
-/// DAM x1, DT x1, Condition X1.2, 1x Spread, +15% DMG to Organics, 55% Poison Damage -75 /// Karma Per Kill
-///     --Polonium Round
-///     Stamped with miniscule amount of radioactive polonium into every round, poisioning enemy targets and preventing enemy health regeneration.
-/// Anti-Tech?
-///     --Radioactive Rounds
-///     Radioactive materials induce low level radition sickness in targets, reducing cooldown rates for ability uses.
+/// Specialized rounds constructed with sub compartments or internal air pockets for
+/// mixing, these rounds induce sickness into targets with deadly artificial toxins,
+/// violatile chemical mixtures and designed viruses. Popular with those never intending
+/// legal behavior, these rounds are heavily looked down upon. Sacrificing realibility and /// causing great fouling, these round induce a build of hazardous compounds in the body
+/// and corrode to the internal organics of their victims. While offering little to no
+/// benefit against synthetics these rounds stop the healing of their targets and give a
+/// minor edge in dynamic exchanges of fire. While not benefiting from the yaw tumbling of
+/// other, the fragmentation of the round inside of large internal cavity create a
+/// nightmare scenario for even the most skilled of surgeons. Where the main mass of the
+/// round careens haphazardly into an organic target, chips of toxic materials splinter
+/// across the pathway making it almost impossible to remove every bit of toxic compound
+/// fragment. Subjecting their victims to even more fast acting toxins many simply
+/// experience their body succumb to neuralogical shock and rapid decay.
+/// DAM x1.1, DT x1, Condition X1.2, 1x Spread, +15% DMG to Organics, 75% Toxic Damage -75 Karma Per Kill
 
-/// . 
+///     --Radioactive Rounds
+///     Stamped with miniscule amount of radioactive polonium into every round Radioactive materials induce low level radition sickness in targets, reducing cooldown rates for ability uses. 
+
 /// . Depleted Uranium Disacarding Sabot
 /// Known by many names, D.U.D.S, Black Tips, Demon Rounds, Darkstar Bullets, this rare,
 /// experimental ammunition offers a tightly compacted load, laced with alpha ray emitting
 /// radioloical material. Made with a plastic buffer between the round and powder, the
-/// compression on the round's primer reduces chances for misfire with the obvious hazard of
-/// explosive, radioligcal particles entering the user's airways. Very similar to it's Armor
-/// Piercing Discarding Sabot cousin, this round throws all of its core's mass into a small
-/// area upon deformation leading to deep pentration. Self sharpening upon impact, this
-/// pyrophoric, depleted uranium core, ignites upon impact, melting armor and spalling in
-/// it's target's interior. While this round is less susceptible to shattering upon tougher
-/// armor, it offers less capability as the round intends to induce poisioning in its
-/// target. Due to this, the unranium oxide produced upon firing, though minute, is a hazard
-/// and use in high rate of weapons may inflict sever radition poisioning in the user.
+/// compression on the round's primer reduces chances for misfire with the obvious hazard
+/// of explosive, radioligcal particles entering the user's airways. Very similar to it's
+/// Armor Piercing Discarding Sabot cousin, this round throws all of its core's mass into /// a small area upon deformation leading to deep pentration. Self sharpening upon impact,
+/// this pyrophoric, depleted uranium core, ignites upon impact, melting armor and
+/// spalling in it's target's interior. While this round is less susceptible to shattering
+/// upon tougher armor, it offers less capability as the round intends to induce
+/// poisioning in its target. Due to this, the unranium oxide produced upon firing, though
+/// minute, is a hazard and use in high rate of weapons may inflict sever radition
+/// poisioning in the user.
 /// DAM x0.95, -25DT, Condition X0.50, +35% Velocity, +15% DMG to Sythetics, +40% DMG to
 /// Organics, +5% Fire Damage, +5% Toxic Damage, +55% Radiological Damage, -15% jam chance,
 /// -10% blunt damage transfer, STR > 7 to dismantle, -150 Karma per kill
 /// . Deleted Uranium Fletchette Fin Stabalized Sabot
-/// A flechette conterpart to the depleted unranium discarding sabot round, these tiny metal
-/// arrows sit snug inside of a unique casing. This highly advanced housing is made of a
-/// nylon, glass composite hybrid material that pulls the fletchettes along the barrel of
-/// the weapon at hyper velocity. Spewing a group of unranium nails at velocities higher any
-/// traditional armor piercing or hollow pointed ammunition, the self sharpening arrows
-/// throw their force across a small area of effect. Deforming in multiple, molten points of
-/// ignition, the fletchettes spall into their target's interior while also dealing great
-/// amounts of radiological poisioning. Sadly due to their finely-tuned and complex nature,
+/// A flechette conterpart to the depleted unranium discarding sabot round, these tiny
+/// metal arrows sit snug inside of a unique casing. This highly advanced housing is made
+/// of a nylon, glass composite hybrid material that pulls the fletchettes along the
+/// barrel of the weapon at hyper velocity. Spewing a group of unranium nails at
+/// velocities higher any traditional armor piercing or hollow pointed ammunition, the
+/// self sharpening arrows throw their force across a small area of effect. Deforming in
+/// multiple, molten points of ignition, the fletchettes spall into their target's
+/// interior while also dealing great amounts of radiological poisioning. Sadly due to
+/// their finely-tuned and complex nature,
 /// rounds of this manufacture have more vectors of misfires. No greater safety against
 /// misfires is in their construction. Less susceptible to shattering upon tougher
 /// armor, the unranium oxide produced upon firing, though minute, is a hazard
@@ -458,6 +469,33 @@ Bean bag rounds are less-than-lethal shotgun ammunition commonly used by law enf
 /// DAM x0.95, -31DT, Condition X1.1, +95% Velocity, +15% DMG to Sythetics, +40% DMG to
 /// Organics, +5% Fire Damage, +5% Toxic Damage, +55% Radiological Damage,
 /// -20% blunt damage transfer, STR > 7 to dismantle, -150 Karma per kill
+/// . Plasma
+/// Steered either by projected magnetic fields or generated at point of impact by heating
+// up pressurized gas, these type of rounds primarily damage their target's through thermal
+/// transfer. These rounds uniquely deal heavy damage to both organic and synthetic enemies
+/// alike while also evaporating target energy shielding. One serious drawback to the round
+/// however is the heavily reduced velocity and range of the weapon firing these types of
+/// rounds. Whether raw plasma or heavy slug like rounds, these projectiles must either
+/// endure the unforgiving reality of enthropic heat loss or that the generation of plasma
+/// upon impact must be done with a great deal of complex material and ignition.
+/// Additionally, because the ammunition often sacrifices any means of steering or
+/// mitigating flight technologies, the rounds are also widely spread out in their shot
+/// pattern. These weapons, extremely damaging, are best used in close quarters combat.
+/// DAM x0.95, -31DT, Condition X1.1, 3x Spread -200% Velocity, +45% DMG to Sythetics,
+/// +45% DMG to Organics, -100% blunt force transfer, +100% Shield Damage, -100% recoil
+/// . Laser
+/// Altering the traditional ballistic cartridge into a miniwat laser or simply into a raw
+/// beam of high energy protons, this type of ammunition travels at the speed of light
+/// towards its target. These rounds are pinpoint accurate and additionally circumvent the
+/// layered systems of sheild technology. At a cost to their overall damage due to the need
+/// for continous exposure to the narrow point of heat transfer, these rounds suffer at
+/// quickly dispatching their victims. Repeated and continous hits are often needed. While
+/// though weaker than other types of energy weapons, especially in small arms, these
+/// types of ammunition can travel any length of distance. There is no target too far to
+/// be touched by this round. Best used at longer ranges, these rounds are potent to defeat
+/// enemies before there is even a change to fight back. 
+/// DAM x0.70, -2DT, Condition 1x, 0.1x Spread, +1000% Velocity,  +55% Sheild Bypass,
+/// -100% Recoil
 /// </summary>
 
 #7.Weapon Attachments
@@ -643,7 +681,7 @@ Req: Lvl 12, Strength 9
 While standing still your Damage Resistance is increased by 25%, all non projectile attacks deal 50% more damage and your poise is increased by 50%.
 - Heavy Hitter
 Req: Lvl 12, Strength 8
-Bashing an enemy with your projectile weapon, eg. firearm, deals an additional 50% damage and causes your target to stagger. 
+Bashing an enemy with your projectile weapon, eg. firearm, deals an additional 50% damage and causes your target to immeaditely break their poise and stagger. 
 
 Steady Aim
 Strong Back
