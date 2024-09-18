@@ -284,11 +284,13 @@ Bean bag rounds are less-than-lethal shotgun ammunition commonly used by law enf
 /// . Anti Tank Guided Missle (FAF)
 /// A guided, self propelled High Explosive Anti Tank round, these types of munitions are composed of a launch motor,
 /// a heat warhead, and a guidance system. These are several variants based on guidance systems. Fire and forget
-/// system's predetermine the target's spatial coordinates, direction of travel, velocity of the target prior to the
-/// missile's ignition. This data is then programmed into the missile and handles all future means of movement. As a
+/// system's predetermine the target's spatial coordinates, direction of travel, velocity
+/// of the target prior to the
+/// missile's ignition. This data is then programmed into the missile and handles all
+/// future means of movement. As a
 /// result, this allows the user to lock their target, fire and move onto the next target.
-/// DAM 0.80x, -34DT, +100% Explosive Damage, 1x Condition, 1x Spread, +100% blunt damage transfer
-/// +55% DMG to Synthetics, +5% DMG to Organics, +20% Fire Damage
+/// DAM 0.80x, -34DT, +100% Explosive Damage, 1x Condition, 1x Spread, +100% blunt damage
+/// transfer +55% DMG to Synthetics, +5% DMG to Organics, +20% Fire Damage
 
 
 /// . Anti Tank Guided Missile Overfly Top Attack
@@ -431,7 +433,8 @@ Bean bag rounds are less-than-lethal shotgun ammunition commonly used by law enf
 /// across the pathway making it almost impossible to remove every bit of toxic compound
 /// fragment. Subjecting their victims to even more fast acting toxins many simply
 /// experience their body succumb to neuralogical shock and rapid decay.
-/// DAM x1.1, DT x1, Condition X1.2, 1x Spread, +15% DMG to Organics, 75% Toxic Damage -75 Karma Per Kill
+/// DAM x1.1, DT x1, Condition X1.2, 1x Spread, +15% DMG to Organics, 75% Toxic Damage -75
+/// Karma Per Kill
 
 ///     --Radioactive Rounds
 ///     Stamped with miniscule amount of radioactive polonium into every round Radioactive materials induce low level radition sickness in targets, reducing cooldown rates for ability uses. 
@@ -484,7 +487,7 @@ Bean bag rounds are less-than-lethal shotgun ammunition commonly used by law enf
 /// DAM x0.95, -31DT, Condition X1.1, 3x Spread -200% Velocity, +45% DMG to Sythetics,
 /// +45% DMG to Organics, -100% blunt force transfer, +100% Shield Damage, -100% recoil
 /// . Laser
-/// Altering the traditional ballistic cartridge into a miniwat laser or simply into a raw
+/// Altering the traditional ballistic cartridge into a raw
 /// beam of high energy protons, this type of ammunition travels at the speed of light
 /// towards its target. These rounds are pinpoint accurate and additionally circumvent the
 /// layered systems of sheild technology. At a cost to their overall damage due to the need
@@ -496,6 +499,13 @@ Bean bag rounds are less-than-lethal shotgun ammunition commonly used by law enf
 /// enemies before there is even a change to fight back. 
 /// DAM x0.70, -2DT, Condition 1x, 0.1x Spread, +1000% Velocity,  +55% Sheild Bypass,
 /// -100% Recoil
+/// . Electromagnetic Rail Projectile
+/// While any projectile in theory with sufficent magnetic properties could be used in
+/// weapons commonly referred to as Gauss Rifles, Railguns, or Coilguns, these rounds
+/// enjoy specific construction to maintain magnetic properties with dampening for
+/// overcoming the hysteresis loop. Not heavily plagued by the counter acting weak forces,
+/// this round still suffers a minor loss in overall damage potential. 
+/// DAM x0.90, DT 1x, Condition 1x, Spread 0.9x 
 /// </summary>
 
 #7.Weapon Attachments
@@ -521,7 +531,7 @@ Ablative Coating
 Energized Plating
 /// . Dragonskin
 /// Designed to overcome the high impact, high caliber ammunition, this armor acts with chemical fibers to contract around zones of impact. Increasing its effectiveness against single shot, large rifle rounds, this armor was widely adopted by wealthy nation seeking to help their soldiers survive even small bursts of enemy machine gun fire. Sadly, it is overcome by overloading its chemical states with high volumes of fire. Even long bursts of small pistol caliber ammo with will open its wearer to a momentary lapse in protection, able to be exploited by a quick follow up high caliber round. Worse still, tempature based, direct energy weapons completely negate the effectiveness of the system. Despite such pitfalls the armor remains popular especially in units combating scouting parties and entrenched sniper sentries. Additionally, appearing in armor pieces for parts of the body too small to be weighted down by convential plating.
--15% Against 
+-15% Against Single Shot Weapons
 Hardened Weave
 Energized Weave
 First Aid Interface
