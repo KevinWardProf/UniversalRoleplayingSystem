@@ -23,6 +23,18 @@ difference is the resistance.
 The lower your intelligence and the higher your luck increases the chance of earning a 5x EXP bonus for 5min. Or if you are within
 5-10 of a skill check you can pass it. Or it lowers checks for non speech(barter, intimidate, charm)
 
+.Weapon Motifs
+You will find this more often expanded upon in ammunition types, but I wanted to establish some weapon motifs to get a general gist of how the different types of weapons perform based on type. 
+..Ballistic Cheap to produce/purchase. Wide variety of options for most every scenario. Idea is to strip away sheilds with high dps. Otherwise use grenades and then  
+..Bolt Weapons High Damage to Health, Moderate Damage To Armor, Low Damage To Shields. High melee damage. Not fletchettes or arrows, unguided rods, typically metal and with an arrow head, has low accuracy. Low velocity, high mass (meaning can push back enemies, vehicles around with physics force), high poise damage (either stun lock enemy very easily or otherwise each attack). When dual wielded, weapons always suffer an accuracy penalty. Unlike fletchettes, these rounds minimally spall on impact. Cheap to produce, though not readily available for purchase. Higher end upgrades, like super heating, look to defeat armor. Could be in a smoothbore ballistic weapon, electromagnetic rail, high tension sling. When enemy or even vehicle is close to surface, can pin them to the surface, imbolizing them. General idea is to use melee, or grenades to stip sheilds and then go in for the bolt kill.
+
+..Energy
+...The basic principle guiding Laser. Plasma. Electric. Fire. Cryo.
+..Pneumatic
+..Melee
+..Unarmed
+...Wrist Projectile Weapons
+
 #6.
 /// <summary> Ammunition Types
 /// 1. Hand Loaded Ammunition
