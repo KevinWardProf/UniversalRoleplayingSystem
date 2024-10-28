@@ -25,15 +25,41 @@ The lower your intelligence and the higher your luck increases the chance of ear
 
 .Weapon Motifs
 You will find this more often expanded upon in ammunition types, but I wanted to establish some weapon motifs to get a general gist of how the different types of weapons perform based on type. 
-..Ballistic Cheap to produce/purchase. Wide variety of options for most every scenario. Idea is to strip away sheilds with high dps. Otherwise use grenades and then  
-..Bolt Weapons High Damage to Health, Moderate Damage To Armor, Low Damage To Shields. High melee damage. Not fletchettes or arrows, unguided rods, typically metal and with an arrow head, has low accuracy. Low velocity, high mass (meaning can push back enemies, vehicles around with physics force), high poise damage (either stun lock enemy very easily or otherwise each attack). When dual wielded, weapons always suffer an accuracy penalty. Unlike fletchettes, these rounds minimally spall on impact. Cheap to produce, though not readily available for purchase. Higher end upgrades, like super heating, look to defeat armor. Could be in a smoothbore ballistic weapon, electromagnetic rail, high tension sling. When enemy or even vehicle is close to surface, can pin them to the surface, imbolizing them. General idea is to use melee, or grenades to stip sheilds and then go in for the bolt kill.
+..Ballistic Weapons Moderate Damage to Health, Moderate Damage to Armor, Moderate Damage to Shields, No Damage To Spirit Barriers. Moderate Melee Damage, Sometimes High. Moderate Recoil. High accuracy. High Velocity. Dual wielded, they suffer accuracy penalty only when both hands are firing. Moderate poise damage. Cheap to produce/purchase. Wide variety of options for most every scenario. Idea is to strip away sheilds with high dps. Otherwise use grenades or melee to strip shields from their opponent and hit a critical area like the head with a precision shot. In close range melee and then aim for a headshot or other critical area, or shot the opponent and follow up with a quick melee. Functionally the opposite of bolt weapons in this regard.
+
+..Bolt Weapons High Damage to Health, Moderate Damage To Armor, Low Damage To Shields, No Damage to Sprit Barriers. High melee damage, High Recoil. Not fletchettes or arrows, unguided rods, typically metal and with an arrow head, has low accuracy. Low velocity, high mass (meaning can push back enemies, vehicles around with physics force), high poise damage (either stun lock enemy very easily or otherwise each attack). When dual wielded, weapons always suffer an accuracy penalty. Unlike fletchettes, these rounds minimally spall on impact. Cheap to produce, though not readily available for purchase. Higher end upgrades, like super heating, look to completely defeat armor. Could be in a smoothbore ballistic weapon, electromagnetic rail, high tension sling. When enemy or even vehicle is close to surface, can pin them to the surface, imbolizing them. Especially brutal on organic enemies though not so much on synthetic enemies. General idea is to use the guns stunning ability to pin an enemy in place and overwhelm their sheilds/armor until their health is brutally crushed. Otherwise make use of grenades, special ammo for armor to defeat at range or at close range begin with a melee attack and finish with the weapon's bolts. If all else fails, the weapons generally heavy a repeated series of melee attacks will suffice. Inflicts damage to user without hearing protection.
 
 ..Energy
-...The basic principle guiding Laser. Plasma. Electric. Fire. Cryo.
+...The basic principle guiding Laser. Plasma. Electric. Fire. Cryo. Shock.
+Laser weapons, Low Damage to Health, Low Damage to Armor, Low Damage to Sheilds, High Damage to Spirit Barriers. Added ability of ignoring sheilding and straight going to armor/health. Low Melee Damage, no recoil. Pinpoint Accurate, no mass (meaning no physics force or blunt transfer), low poise damage (very hard to stun lock an opponent.) Instant Velocity (travels at speed of light, hitscan.) When dual weilded, suffer no accuracy penalty when both hands are firing. Expensive to produce, but cheap to purchase. Infinite Range. Idea is for the weapons used to maintain continous bursts of energy otherwise used a sheer overwhelming amount of energy. Great to be first engauging, but terrible to be the last engauging. Exploit the shield ignorance and score critical hits all ranges. Stealth is always lost when firing. Ultimate type of technology to fight spirtual barriered enemies that's normally left to divine/occult forces. Reload failures cause damage to user.
+Plasma weapons, Low Damage to Health, High Damage to Armor, High Damage to Sheilds, Low Damage To Spirit Barriers (decent amount of light generated. Spirit Barriers are indifferent to thermal transfer.) Low Melee Damage (weapons are lightweight in terms of small arms), minimal recoil (idea is that lasers are always no recoil, but plasma weapons have a small amount of recoil due to venting superheated gases, or launching gas capsules that ignite on impact.) When dual weilded, suffer accuracy penalty when both hands are firing. Short range, cannot headshot, expensive to produce and expensive to purchase ammo. Idea is for weapon to dominate up close engagements and weapons often come with alt fire mechanisms which instantly strip shields, deal massive damage to target, disable opponents through EMP. Useless at long ranges or stealth. Make use of grenades when targets disperse to cover or otherwise close in quickly for a melee kill. Somewhat useful against spirit enemies because of light properties, but otherwise an organic/synthetic killer. Reload failures cause damage to user.
+..Shock weapons, Low Damage to Health, No Damage To Armor, High Damage to Sheilds, Low Damage to Spirit Barriers. Added ability of applying EMP effect build up with each shot and dealing very high posie damage. Moderate Melee Damage, no recoil. Very Poor Accuracy, no mass, but ability to deal high poise damage makes up for not applying physics forces. High Velocity. When dual wielded, suffer no accuracy penalty, however chance to injure self during failed reloads, misfires. Headshots are instant kills. Thorax shots have a moderate chance to kill. Extremely effective at synthetic enemies. Very Short Range, unless uniquely far range. Moderate to produce, high to purchase. Low ammo prices. Idea is to use these weapons to stun opponents, disable enemy synthetics/vehicles, take out large groups of targets indiscriminately without damage surrounding structures. Follow up shots are best done by other weapon types unless at a critical area, or when target cannot escape to cover. Reload failures cause stun to user.
 ..Pneumatic
-..Melee
-..Unarmed
-...Wrist Projectile Weapons
+Moderate Damage To Health, Low Damage to Armor, Moderate Damage To Sheilds. Moderate Melee damage, low recoil. High Accuracy, high mass.
+..Sonic High Damage to Health, No Damage to Armor, No Damage To Sheilds, High Damage to Spirit Barriers. Very Poor Accuracy. Ignores Armor and Sheilds, no mass to slow enemies, but high poise damage. Low Velocity. Whean dual weilded, no accuracy penalty to fire both hands simulataneously. Espensive to produce/cheap to purchase ammo. Very Poor Range. Idea is to use as a very close range weapon simply stripping shields isn't enough or armor is too durable to be penetrated. Mitigated by hearing protection, but still highly adverse to health. Weapons are useless against vehicles or synthetics. Grenades/Melee are optional, but unecessary or useless when used in tandem. 
+
+
+/// Altering the traditional ballistic cartridge into a raw
+/// beam of high energy protons, this type of ammunition travels at the speed of light
+/// towards its target. These rounds are pinpoint accurate and additionally circumvent the
+/// layered systems of sheild technology. At a cost to their overall damage due to the need
+/// for continous exposure to the narrow point of heat transfer, these rounds suffer at
+/// quickly dispatching their victims. Repeated and continous hits are often needed. While
+/// though weaker than other types of energy weapons, especially in small arms, these
+/// types of ammunition can travel any length of distance. There is no target too far to
+/// be touched by this round. Best used at longer ranges, these rounds are potent to defeat
+/// enemies before there is even a change to fight back. 
+/// DAM x0.70, -2DT, Condition 1x, 0.1x Spread, +1000% Velocity,  +55% Sheild Bypass,
+/// -100% Recoil
+/// . Electromagnetic Rail Projectile
+/// While any projectile in theory with sufficent magnetic properties could be used in
+/// weapons commonly referred to as Gauss Rifles, Railguns, or Coilguns, these rounds
+/// enjoy specific construction to maintain magnetic properties with dampening for
+/// overcoming the hysteresis loop. Not heavily plagued by the counter acting weak forces,
+/// this round still suffers a minor loss in overall damage potential. 
+/// DAM x0.90, DT 1x, Condition 1x, Spread 0.9x 
+/// </summary>
+
 
 #6.
 /// <summary> Ammunition Types
@@ -537,6 +563,11 @@ Kinetic Stabilizer
 Kinetic Coil
 Hyper Rail
 
+Health
+Armor
+Shields
+Barriers
+
 Armor Upgrades
 Armor Plating
 Ablative Coating
@@ -565,6 +596,7 @@ Hazard Seals
 Pressurized Seals
 
 #7.Marriage, husbando, waifu, condition
+No idea what Iwas doing with this.
 
 #8.Character Stats
 Name - User entered (should this tie to a family?)
