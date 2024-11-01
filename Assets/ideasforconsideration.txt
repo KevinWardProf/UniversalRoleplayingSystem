@@ -12,8 +12,7 @@ to add to CHR or Guns bonus. High science or repair would make players more effi
 #2.Cryo Damage
 Slows you, if there is an extremity, loose an extremity if it gets too cold. 
 
-#3.Armor you can't lift move or shift, but it can be pierced, but you can use powers on it. Shields and barriers are more or less the same. The only real
-difference is the resistance. 
+#3.Armor you can't lift move or shift, but it can be pierced, but you can use powers on it. Shields and barriers are more or less the same. The only real difference is the resistance. 
 
 #4.Percision Strike PER 6 LCK <3
  In VATs you can choose to perform a precision strike, costing 1.5x more action points to do 2x more damage with your selected weapon.
@@ -60,6 +59,7 @@ Moderate Damage To Health, Low Damage to Armor, Moderate Damage To Sheilds. Mode
 /// DAM x0.90, DT 1x, Condition 1x, Spread 0.9x 
 /// </summary>
 
+.Sheild Types
 
 #6.
 /// <summary> Ammunition Types
@@ -594,6 +594,46 @@ Sheild Regenerator
 Toxic Seals
 Hazard Seals
 Pressurized Seals
+
+.Weapons by Class
+Here are some idea weapons to give an impression of how we want to handle different types of weapon classes and how they solve the same problem.
+Bolt
+Brute Spiker
+Brute Mauler
+Fallout Railway Rifle
+Half Life 2 Crossbow
+ME 3 Graal Spike Thrower
+ME 3 Kishock Harppon Gun
+Banished Skewer (like Spartan Laser)
+
+Sound
+Geonosian Sound Blaster (Rifle?)
+Imperial Sonic Pistol
+COD IW Banshee Shotgun
+
+Shock
+Halo Infinite Banished Disrupter
+ME 3 Arc Pistol
+ME 3 Reegar Carbine
+Halo Infinite Shock Rifle
+Star Wars BF 2 Arc Caster, Charge up, multiple target single shot weapon
+RFG Arc Welder
+
+Water
+Squirt Gun
+Super Soaker
+ME 3 Javelin
+
+Plasma Raw and Explosive
+Halo Infinite Ravager (AoE Plasma GL)
+ME 3 Geth Plasma Shotgun
+ME 3 Geth Spitfire (like a plasma needler)
+
+Compound, something perhaps fictional
+Halo Needler (fulfill role of Grenade Launcher)
+Halo Reach Needle Rifle
+Halo Lumoria Shredder (unguided, high velocity needler)
+
 
 #7.Marriage, husbando, waifu, condition
 No idea what Iwas doing with this.
