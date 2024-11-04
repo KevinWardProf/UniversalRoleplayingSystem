@@ -60,6 +60,46 @@ Moderate Damage To Health, Low Damage to Armor, Moderate Damage To Sheilds. Mode
 /// </summary>
 
 .Sheild Types
+Generally shields follow two pattern types, projection amd reactive. They have four main attributes, capacity, recharge rate, delay before recharge, venting. Capacity is defined as the raw amount of energy a sheild is able to maintain. Recharge rate is the amount of energy restored by the battery per second. Delay before recharge is the amount seconds before shields begin recharging. Venting is the method discharge of stored up electrostatic stored up from the sheild systems generator. Sheilds which do not sync which cloaking technology create an intense thermal signature upon impact, discharge, venting or auxilary use of stored electro static.
+Dune Shield - Most Primative Shield type, projects simples geometic shapes over a large area. Causes visual distortion to user's vision and to those looking it. Does not fit to the form of its user's armor. Incapable of stopping melee attacks. Can be upgraded to have near infinite capacity, but only moderate recharge rate.
+Half Life Shield Armor - Reactive energy shield. Cannot be recharged, must find entire new modules. Does not protect over body/vehilces, layers over exiting armor. Only reduces a degree of imparted weapon/melee energy. Cannot be overcharged, does not sync with cloaking technology.
+Half Life Powered Combat Vest - Reactive energy shield. Can be recharged via batteries. Does not protect ovr full body/vehicles, layers over existing armor. Only reduces a defree of imparted weapon/melee energy.
+Halfe Life H.E.V. Suit - Reactive energy shield. Can be recharged via batteries. Projects whole body/vehicles, seperate module like Dune Sheild. Only reduces a degree of imparted weapon/melee energy. Not stronger than Powered Combat Vests or Sheild Armor, but can be overcharged beyond capacity (2x).
+Mass Effect - Form fitting reactive sheild that does not protect against melee attacks. Slow recharge, accepts high degree of modifications to capacity, recharge rate, venting. Cannot overcharge, but syncs with cloaking technology. 
+Stars Wars Republic Commando - Projection-based, form fitting shield that prevents all forms of melee, ballistic, energy damage from affecting its user. Does not cause visual distortion. While weaker than most shields, but sports a very fast internal rechargeble battery. Cannot be overcharged. Does not sync with cloaking technology.
+Borderlands - Form fitting reactive sheild types that stop all attacks, but have a variety of options for recharge rate, and unique methods of venting energy discharges. They cannot be synced with cloaking technology, nor overcharged..
+ Adaptive - Sheild system anticipates the next impact's material/pattern of spead for increased resistance to elemental damage based on the last type taken.
+ Roid - Bonus melee damage while depleted.
+ Booster - Effectively a shield booster, impacts made upon the sheilds restore energy to a secondary battery when hit. When the sheild capacity is drained completely, the system switches to the auxilary power as its main source. Granting a small sheild boost, the main battery is given further time to refil from drained. Any hits given. 
+ Rough Rider - No sheild, increase to health, like Powered Combat Vests it reduces an imparted weapon/melee energy.
+ Elemental Spike - Melee attackers take elemental damage when hitting the shield. May reduce or negate corresponding elemental damage (burn, corrode, shock).
+ Elemental Nova - Elemental area damage when depleted; must fully recharge between novas. May reduce or negate corresponding elemental damage (burn, corrode, shock).
+ Turtle - Significantly increased shield capacity, but lowers maximum health.
+ Shield - Lower capacity, higher recharge rates, shorter recharge delays.
+ Explosive Spike - Melee attackers take explosive damage when hitting the shield. May reduce or negate explosive damage.
+ Explosive Nova - Explosive area damage when depleted; must fully recharge between novas. May reduce or negate explosive damage.
+ Absorb - Chance to absorb bullets that hit the shield. Damage is negated and the bullet is added to the character's stock.
+Halo CE - High capacity, form fitting shields, moderate recharge, no health recharge, can be overcharged beyond capacity (4x), syncs with cloaking technology.  Stops all attacks (exept spirit). 
+Halo Reach - High capacity, form fitting sheilds, fast recharge, limited health recharge, can be overcharged beyond capacity (4x), syncs with cloaking technology. Stops all attacks (except spirit).
+Halo 2, 3, 4, 5 - High capacity form fitting sheilds, very fast recharge, health recharge, can be overcharged beyond capacity (4x), syncs with cloaking technology. Stops all attacks (except spirit).
+Crysis 2 (Adative Shield System) - An advanced, multivariant system that utilizes sheild energy. While not as effective as it full suit countpart, this shield system allows the user to switch between different abilities. 
+ Maximum Armor - Sheild system diverts energy Turns armor in a more durable version of the H.E.V. shield
+ Cloak - Sheild system diverts energy to an attached cloaking system.
+ Maximum Power - Utilize the energy venting and power supply of the sheild system to concentrate energy at one's hands and feet to deliver brutal, powerful melee attacks.
+ Maximum Speed - Utilize the energy venting and power supply of the sheild system to concentrate energy at one's hands and feet to quickly sprint across open ground, mantle across obstacles, and jump higher.
+
+Armor: Energy is diverted to tightening of the suit's outer weave, increasing density and thus enabling deflection of oncoming high-speed projectiles; blunt trauma and high-energy emissions are also absorbed. This depletes the suits' power rather than the wearers' health. It should be noted that due to the suits' increased bulk, footsteps are louder and the wearers' stealth properties are significantly reduced if operating on certain terrains, such as concrete or brick. A prominent glow will flow through the suits' fibers as it channels power-dampening energy. If the player were to look closely enough while armored, they would see teeth-like structures agglomerated on each 'cell' of the CryFibril. This can only be noticed in the "Second Chance" opening or Nanosuit Showroom. Also, the reload animation for most firearms becomes louder, and there would seem to be additional stress on them when doing so (bumping the magazine or forcing it in).
+Stealth: The suits' surface dynamically scans the surrounding area and modifies its skin color to match in real-time, cloaking the player in addition to trapping most vibrations (sound) produced by movement. Note that firing a shot from an unsuppressed firearm while cloaked will fully deplete the suits' energy reserve while doing so with a suppressed firearm will minimize power consumption but while still disrupting the system. As such, it is strongly advised to shoot for a targets' weak spot while cloaked and remaining hidden to reduce overall chances of detection. The suit will also temporarily deactivate the field if the player strikes an enemy, picks up an item/enemy, or performs a Stealth kill (afterward, it automatically resumes). A closer look reveals a spectrum caused by the formation of light-refracting nanocrystals, as seen in the "Second Chance" opening. Furthermore and unlike Armor, the reload animation for most firearms in Stealth are quiet.
+Power: This passive mode activates only when needed and is a combination of Speed and Strength from the previous Nanosuit, although it performs better than the two. The mechanism by which it operates is similar to the previous iteration of the suit; injection of nanobots and strength enhancing narcotics into the wearers' bodies (as seen from the Crysis 2 trailer). It triggers and consumes energy when performing fast actions such as a "power jump," "power sprint," or "power slide," moving an incredibly vast and cumbersome object, or crashing down on a surface or enemy with titanic force (known as an "air stomp"). If the player picks up an object, they can also hold down the 'attack' button to throw it with increased force, causing more damage. Apparently, in the Nanosuit 2, Power mode is active even when the player picks up an enemy or chooses to hold their breath when aiming a weapon, which drains energy as opposed to the first Nanosuit. In Power mode, the Nanosuit glows red in Crysis 2 and blue in Crysis 3. This can only be noticed in the Nanosuit Showroom.
+
+
+.Sprit Barriers
+
+.Backpack Types
+Armor Ability Modules
+ECM Jammer - Prevents the triggering of remote detonated explosives (C4 prime example), scrambles personal radars/motion trackers, navigation maps in a certain radius.
+Armor Lock -
+
 
 #6.
 /// <summary> Ammunition Types
