@@ -642,10 +642,11 @@ Imperial Sonic Pistol
 COD IW Banshee Shotgun
 
 Shock
+Ready Or Not Taser
 Halo Infinite Banished Disrupter
 ME 3 Arc Pistol
 ME 3 Reegar Carbine
-Halo Infinite Shock Rifle
+Halo Infinite Banished Shock Rifle
 Star Wars BF 2 Arc Caster, Charge up, multiple target single shot weapon
 RFG Arc Welder
 
@@ -655,15 +656,28 @@ Super Soaker
 ME 3 Javelin
 
 Plasma Raw and Explosive
+Halo Plasma Rifle
+Halo Plasma Pistol
+Halo Reach Plasma Repeater
+Halo Reach Plasma Launcher
 Halo Infinite Ravager (AoE Plasma GL)
 ME 3 Geth Plasma Shotgun
 ME 3 Geth Spitfire (like a plasma needler)
+
 
 Compound, something perhaps fictional
 Halo Needler (fulfill role of Grenade Launcher)
 Halo Reach Needle Rifle
 Halo Lumoria Shredder (unguided, high velocity needler)
 
+Pneumatic
+Metro Tihar
+Metro Hellsing
+
+Rail
+Metro Hellbreath Volt Driver (works with Pneumatic ammo)
+RFG Gauss Rifle
+RFG Rail Driver
 
 #7.Marriage, husbando, waifu, condition
 No idea what Iwas doing with this.
