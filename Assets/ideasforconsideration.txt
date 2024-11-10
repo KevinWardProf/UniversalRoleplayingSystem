@@ -40,10 +40,18 @@ Moderate Damage to Health, Low Damage to Armor, Low Damage to Sheilds, No Damage
 Moderate damage to Health, No damage to Armor, Low Damage to Sheilds. Penetrate armor in high concentrations of pressure, target's protected well by sheilds. Very rare weapon.
 ..Incendiary weapons
 High Damage to Health, Low Damage to Shields, High Damage to Spirit Barriers. Flammable gases, liquids, gels, composite pastes and dry powders make fleshy, targets, unprotected by sheilds and armor, suffer immensely. Whereas plasma applies immense damage to protection immediately, incendiary applies continious, stacking damage to protection, then health. 
+
 ..Corrosive weapons
 Moderate Damage to Health, High Damage to Armor, Low Damage to Shields, No Damage to Spirit Barriers. High Melee Damage (often blunt, corrosive vats or capsules heavily increased the weight traditional firarms.) Low recoil, low mass. When dual weilded, suffer no accuracy penalty when both hands are firing. Moderate range. High crtical damage. Expensive to produce, expensive to maintain, expensive to purchase ammo. General idea is to overwhelm the target's defenses with repeated attacks and establish area denial. Whether organic or synthetic, with each attack the target is afflicted with a stacking corrosive damage over time and the non stacking corroded status effect. Attacks against corroding enemies receive a damage bonus, reflecting their weakened state. Corrosive DOT is contagious, with a chance of spreading to afflict adjoining targets. Use of grenades or melee to strip sheild is crucial. While corrosive is not strong against enemy health, once an armored target's shields fall, the attacks will melt through enemy armor and the stacking effects will quickly turn enemies into festering pools of acid. Any misses to target's will generate a small pool of corrosive acid able to iniate, or reiniate the corrosion process. Poison and Toxic effects are usually not inflicted and are in their weapon motif. Reload failures with the weapon will deal a minor amount of corrosive damage to the user and inflict the corroded status effect.
+
 ..Poison weapons
 Low Damage to Health, No Damage to Armor, Low Damage to Sheilds, no damage to Spear makersIdea is to stack poison or toxic effects on top of the other. With no real penetrative or defeating properties, damage dealth over time is key.
+
+
+
+
+
+
 ..Shock weapons
 Low Damage to Health, No Damage To Armor, High Damage to Sheilds, Low Damage to Spirit Barriers. Added ability of applying EMP effect build up with each shot and dealing very high posie damage. Moderate Melee Damage, no recoil. Very Poor Accuracy, no mass, but ability to deal high poise damage makes up for not applying physics forces. High Velocity. When dual wielded, suffer no accuracy penalty, however chance to injure self during failed reloads, misfires. Headshots are instant kills. Thorax shots have a moderate chance to kill. Extremely effective at synthetic enemies. Very Short Range, unless uniquely far range. Moderate to produce, high to purchase. Low ammo prices. Idea is to use these weapons to stun opponents, disable enemy synthetics/vehicles, take out large groups of targets indiscriminately without damage surrounding structures. With this weapon type the paralysis status effect can be inflicted. Follow up shots are best done by other weapon types unless at a critical area, or when target cannot escape to cover. Reload failures cause stun to user.
 ..Pneumatic Projectile
@@ -52,6 +60,15 @@ High Damage To Health, Low Damage to Armor, Moderate Damage To Sheilds, No Damag
 High Damage to Health, No Damage to Armor, No Damage To Sheilds, High Damage to Spirit Barriers. Very Poor Accuracy. Ignores Armor and Sheilds, no mass to slow enemies, but high poise damage. Low Velocity. Whean dual weilded, no accuracy penalty to fire both hands simulataneously. Espensive to produce/cheap to purchase ammo. Very Poor Range. Idea is to use as a very close range weapon simply stripping shields isn't enough or armor is too durable to be penetrated. Mitigated by hearing protection, but still highly adverse to health. Weapons are useless against vehicles or synthetics. Grenades/Melee are optional, but unecessary or useless when used in tandem. 
 ...Electromagnetic Rail Projectile
 High Damage To Health, Moderate Damage to Armor, Moderate Damage To Sheilds, No Damage To Spirit Barriers. High melee damage, but slow. High Accuracy, low recoil, high mass. Deals moderate poise damage. High velocity projectiles. When dual wielded, weapons never suffer an accuracy penalty. Expensive to produce, very expensive to purchase. Useful on organic and synthetic enemies. General idea is to stay at range deliver aimed shots to bring down a target. Electro Magnetic weapons deal great damage against most types of protection and can throw extemely heavy projectiles at high speeds or small projectiles at incredible rates of fire. However, the weapons have the drawback of emp effects on their users in cause of a misfire, or reload failure. Additionally, weapons precison instruments and abuse through melee attack can damage the weapons significantly.
+
+..Spritual Weapons
+..Light Weapons
+No Damage to Health, No Damage To Armor, No Damage To Shields, High Damage to Sprit Barriers. melee damage, recoil, accuracy, velocity, high mass, high poise damage. When dual wielded, weapons always suffer an accuracy penalty. produce, purchase. Organic, Synthetic, Vehicles. General idea is
+..Dark Weapons
+High Damage to Health, High Damage To Armor, High Damage To Shields, Low Damage to Sprit Barriers. melee damage, recoil, accuracy, velocity, high mass, high poise damage. When dual wielded, weapons always suffer an accuracy penalty. produce, purchase. Organic, Synthetic, Vehicles. General idea is
+
+
+
 
 .Sheild Types
 Generally shields follow two pattern types, projection amd reactive. They have four main attributes, capacity, recharge rate, delay before recharge, venting. Capacity is defined as the raw amount of energy a sheild is able to maintain. Recharge rate is the amount of energy restored by the battery per second. Delay before recharge is the amount seconds before shields begin recharging. Venting is the method discharge of stored up electrostatic stored up from the sheild systems generator. Sheilds which do not sync which cloaking technology create an intense thermal signature upon impact, discharge, venting or auxilary use of stored electro static.
@@ -696,9 +713,11 @@ No idea what Iwas doing with this.
 Name - User entered (should this tie to a family?)
 Age - Raw number value with certain 
 Sex - Male or Female, affecting starting stats, (Male +STR, +AGL : Female +INT, +AGL ??)
+Element: Light, Fire, Water, Earth, Air, Dark
+Creature Type: Human, Bug, Spirit, etc
 Character Attributes - Main governing statistics from which all other statistics are derived.
 Character Derived Statistics - Catch all for all relevant statisical data about a character.
-Character Needs - Measure of different physiological 
+Character Needs - Measure of different physiological needs for a character. 
 Virtue - How moral or immoral a character is, based on Aristotelean measurements, 
 Traits - Personality Traits that modify the characters base stats and thus combat, social, relational interactions.
 
