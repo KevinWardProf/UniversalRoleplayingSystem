@@ -22,6 +22,16 @@ Slows you, if there is an extremity, loose an extremity if it gets too cold.
 The lower your intelligence and the higher your luck increases the chance of earning a 5x EXP bonus for 5min. Or if you are within
 5-10 of a skill check you can pass it. Or it lowers checks for non speech(barter, intimidate, charm)
 
+.Element Types
+Light, Fire, Water, Earth, Air, Dark.
+Dark>Fire, Water, Earth, Air
+Light>Dark
+Fire>Air
+Earth>Air
+Earth>Water
+Water>Fire
+Light has no weakness
+
 .Weapon Motifs
 You will find this more often expanded upon in ammunition types, but I wanted to establish some weapon motifs to get a general gist of how the different types of weapons perform based on type. Bullets are precise, wide variety of types. Bolt weapons are weak to sheilds, but heavily strip health at range. Laser ignores shields, but require precise aim/criticals. Plasma strips sheilds/armor, but struggles at range. Incendiary heavily strips health, but does moderate damage to armor and induces burned status effect. Shock heavily strips sheilds, but often lacks range and induces paralysis satus effect. Corrosive heavily strips armor, but does moderate damage to health, but does not induce poision or toxic effects. Sonic ignores armor, sheild, deaily short range high damage to health. 
 ..Ballistic Weapons Moderate Damage to Health, Moderate Damage to Armor, Moderate Damage to Shields, No Damage To Spirit Barriers. Moderate Melee Damage, Sometimes High. Moderate Recoil. High accuracy. High Velocity. Dual wielded, they suffer accuracy penalty only when both hands are firing. Moderate poise damage. Cheap to produce/purchase. Wide variety of options for most every scenario. Idea is to strip away sheilds with high dps. Otherwise use grenades or melee to strip shields from their opponent and hit a critical area like the head with a precision shot. In close range melee and then aim for a headshot or other critical area, or shot the opponent and follow up with a quick melee. Functionally the opposite of bolt weapons in this regard.
