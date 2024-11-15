@@ -734,7 +734,17 @@ Element-mancy: Projection/control of natural forces under the fire, water, earth
 Miracles: Channeling of divinely granted power.
 Hexs: Channeling of demonically granted power.
 
-
+.Spirtual Actions
+Holy
+Righteous Path: Dante performed a dash attack and left a trail of icy shards in his wake.
+Divine Armor: Dante surrounded himself in holy power to absorb damage.
+Martyrdom: Dante sacrificed Health and Mana to deal a heavy amount of damage to any surrounding enemies.
+Heaven's Embrace: Dante summoned several icy shards which acted as mines.
+Unholy
+Sins of the Father: A magic pendant protected Dante and attacked any nearby enemies.
+Lust Storm: Dante surrounded himself with a storm of dark energy that dealt damage to enemies.
+Suicide Fruit: Dante slammed the rotting fruit of a Suicide Tree into the ground, stunning nearby enemies.
+Putrid Voice: Dante mirrored the Gluttons and vomited a deadly acid onto enemies in the surrounding area.
 
 #7.Marriage, husbando, waifu, condition
 No idea what Iwas doing with this.
