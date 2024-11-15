@@ -33,13 +33,19 @@ Water>Fire
 Light has no weakness
 
 .Weapon Motifs
-You will find this more often expanded upon in ammunition types, but I wanted to establish some weapon motifs to get a general gist of how the different types of weapons perform based on type. Bullets are precise, wide variety of types. Bolt weapons are weak to sheilds, but heavily strip health at range. Laser ignores shields, but require precise aim/criticals. Plasma strips sheilds/armor, but struggles at range. Incendiary heavily strips health, but does moderate damage to armor and induces burned status effect. Shock heavily strips sheilds, but often lacks range and induces paralysis satus effect. Corrosive heavily strips armor, but does moderate damage to health, but does not induce poision or toxic effects. Sonic ignores armor, sheild, deaily short range high damage to health. 
+You will find this more often expanded upon in ammunition types, but I wanted to establish some weapon motifs to get a general gist of how the different types of weapons perform based on type. Bullets are precise, offer a wide variety of types and cheap. Bolt weapons are weak to sheilds, but heavily strip health at range. Laser ignores shields, but require precise aim/criticals. Plasma strips sheilds/armor, but struggles at range. Incendiary heavily strips health, but does moderate damage to armor and induces burned status effect. Shock heavily strips sheilds, but often lacks range and induces paralysis satus effect. Corrosive heavily strips armor, but does moderate damage to health, but does not induce poision or toxic effects. Sonic ignores armor, sheild, deaily short range high damage to health. 
+
+Ex:
+Damage to Health, Damage To Armor, Damage To Shields, Damage to Sprit Barriers. melee damage, recoil, accuracy, range velocity, mass, poise damage. When dual wielded, weapons always suffer no accuracy penalty. produce, purchase. Organic, Synthetic, Vehicles. General idea is
+
+
 ..Ballistic Weapons Moderate Damage to Health, Moderate Damage to Armor, Moderate Damage to Shields, No Damage To Spirit Barriers. Moderate Melee Damage, Sometimes High. Moderate Recoil. High accuracy. High Velocity. Dual wielded, they suffer accuracy penalty only when both hands are firing. Moderate poise damage. Cheap to produce/purchase. Wide variety of options for most every scenario. Idea is to strip away sheilds with high dps. Otherwise use grenades or melee to strip shields from their opponent and hit a critical area like the head with a precision shot. In close range melee and then aim for a headshot or other critical area, or shot the opponent and follow up with a quick melee. Functionally the opposite of bolt weapons in this regard.
 
 ..Bolt Weapons High Damage to Health, Moderate Damage To Armor, Low Damage To Shields, No Damage to Sprit Barriers. High melee damage, High Recoil. Not fletchettes or arrows, unguided rods, typically metal and with an arrow head, has low accuracy. Low velocity, high mass (meaning can push back enemies, vehicles around with physics force), high poise damage (either stun lock enemy very easily or otherwise each attack). When dual wielded, weapons always suffer an accuracy penalty. Unlike fletchettes, these rounds minimally spall on impact. Cheap to produce, though not readily available for purchase. Higher end upgrades, like super heating, look to completely defeat armor. Could be in a smoothbore ballistic weapon, electromagnetic rail, high tension sling. When enemy or even vehicle is close to surface, can pin them to the surface, imbolizing them. Especially brutal on organic enemies though not so much on synthetic enemies. General idea is to use the guns stunning ability to pin an enemy in place and overwhelm their sheilds/armor until their health is brutally crushed. Otherwise make use of grenades, special ammo for armor to defeat at range or at close range begin with a melee attack and finish with the weapon's bolts. If all else fails, the weapons generally heavy a repeated series of melee attacks will suffice. Inflicts damage to user without hearing protection.
 
 ..Energy
-...The basic principle guiding Laser. Plasma. Incendiary. Cryo. Shock. Corrosive.
+...The basic principle guiding
+
 ...Laser weapons
 Low Damage to Health, Low Damage to Armor, Low Damage to Sheilds, High Damage to Spirit Barriers. Added ability of ignoring sheilding and straight going to armor/health. Low Melee Damage, no recoil. Pinpoint Accurate, no mass (meaning no physics force or blunt transfer), low poise damage (very hard to stun lock an opponent.) Instant Velocity (travels at speed of light, hitscan.) When dual weilded, suffer no accuracy penalty when both hands are firing. Expensive to produce, but cheap to purchase. Infinite Range. Idea is for the weapons used to maintain continous bursts of energy otherwise used a sheer overwhelming amount of energy. Great to be first engauging, but terrible to be the last engauging. Exploit the shield ignorance and score critical hits all ranges. Stealth is always lost when firing. Ultimate type of technology to fight spirtual barriered enemies that's normally left to divine/occult forces. Reload failures cause damage to user.
 ...Plasma weapons
@@ -57,11 +63,6 @@ Moderate Damage to Health, High Damage to Armor, Low Damage to Shields, No Damag
 ..Chemical weapons
 Low Damage to Health, No Damage to Armor, Low Damage to Sheilds, no damage to Spear makersIdea is to stack poison or toxic effects on top of the other. With no real penetrative or defeating properties, damage dealth over time is key.
 
-
-
-
-
-
 ...Shock weapons
 Low Damage to Health, No Damage To Armor, High Damage to Sheilds, Low Damage to Spirit Barriers. Added ability of applying EMP effect build up with each shot and dealing very high posie damage. Moderate Melee Damage, no recoil. Very Poor Accuracy, no mass, but ability to deal high poise damage makes up for not applying physics forces. High Velocity. When dual wielded, suffer no accuracy penalty, however chance to injure self during failed reloads, misfires. Headshots are instant kills. Thorax shots have a moderate chance to kill. Extremely effective at synthetic enemies. Very Short Range, unless uniquely far range. Moderate to produce, high to purchase. Low ammo prices. Idea is to use these weapons to stun opponents, disable enemy synthetics/vehicles, take out large groups of targets indiscriminately without damage surrounding structures. With this weapon type the paralysis status effect can be inflicted. Follow up shots are best done by other weapon types unless at a critical area, or when target cannot escape to cover. Reload failures cause stun to user.
 ...Pneumatic Projectile
@@ -72,10 +73,12 @@ High Damage to Health, No Damage to Armor, No Damage To Sheilds, High Damage to 
 High Damage To Health, Moderate Damage to Armor, Moderate Damage To Sheilds, No Damage To Spirit Barriers. High melee damage, but slow. High Accuracy, low recoil, high mass. Deals moderate poise damage. High velocity projectiles. When dual wielded, weapons never suffer an accuracy penalty. Expensive to produce, very expensive to purchase. Useful on organic and synthetic enemies. General idea is to stay at range deliver aimed shots to bring down a target. Electro Magnetic weapons deal great damage against most types of protection and can throw extemely heavy projectiles at high speeds or small projectiles at incredible rates of fire. However, the weapons have the drawback of emp effects on their users in cause of a misfire, or reload failure. Additionally, weapons precison instruments and abuse through melee attack can damage the weapons significantly.
 
 ..Spritual Weapons
+
 ...Light Weapons
-No Damage to Health, No Damage To Armor, No Damage To Shields, High Damage to Sprit Barriers. melee damage, recoil, accuracy, velocity, high mass, high poise damage. When dual wielded, weapons always suffer an accuracy penalty. produce, purchase. Organic, Synthetic, Vehicles. General idea is
+Low Damage to Health, No Damage (or ignore) To Armor, No Damage (or ignore) To Shields, High Damage (or ignore) to Sprit Barriers. High melee damage, low recoil, high accuracy, high velocity, low mass, low poise damage. When dual wielded, weapons always suffer no accuracy penalty. Weapons are not easily produced, requiring unique vendors/materials to transform a regular weapon into a light weapon. They are never available for purchase. Organic, Synthetic, Vehicles are fairly resistant to this type of weapon. General idea is to reserve these weapons for use on dark or otherwise evil targets. One would be better served using another weapon type in regular combat. Light weapons cannot score critical hits on the head, instead the body segment containing the heart, often meaning center mass shots are best. In the case of ranged light weapons, they strip spirits barriers quickly, allowing users to quickly attack critical areas. Melee attacks with light weapons ignore armor, sheilds and spirit barriers. Light weapons are increased in damage by offering a portion of health, capping one's health at a certain threshold or by the user generally maintain a high virtue. Kills with these weapons on low virtue targets increases virtue, hence weapon power, while attacks on medium or higher virtue characters lowers virtue, hence decreasing power. Additionally, all non critical and critical kills with a light weapon prevent revival. 
+
 ...Dark Weapons
-High Damage to Health, High Damage To Armor, High Damage To Shields, Low Damage to Sprit Barriers. melee damage, recoil, accuracy, velocity, high mass, high poise damage. When dual wielded, weapons always suffer an accuracy penalty. Complex production. Purchased only on trade/barter, not currency. Organic, Synthetic, Vehicles. General idea is to simple overwhelm their opponent. Dark weapons 
+High Damage to Health, High Damage To Armor, High Damage To Shields, Low Damage to Sprit Barriers. High melee damage, High recoil, Low accuracy, Low velocity, high mass, low poise damage. When dual wielded, weapons always suffer an accuracy penalty. Complex production with varied materials. Purchased only on high value trade/barter, not currency by specific nich vendors. Organic, Synthetic, Vehicles all suffer equally heavily from these weapons. General idea with Dark weapons is operate off of metaphysical principles and not regular physics. They dominate all organics, synthetics, vehicles, spirits not protected by a spiritual barrier. They are best used for quick, surpise attacks with the help of grenades and melee. Melee critical attacks are crucial to weapon viability. Dark weapons require the user to increase their hummanity?? stat, obtain through taking the souls of intelligent creatures with the Dark Hand weapon or finishing critical melee attacks. Second, dark weapons can be temporarily buffed with the use of a non-intelligent soul to make the weapon absorb its own reocil effect. What holds the weapons back is their unique methods increasing power and their low power starting point damage. Additionally, every attack of a dark weapon deals a small amount of recoil health and poise damage to the user. High rate of fire weapons can not only kill the reckless, but induce a stagger and leave the user open to a critical attack. Kills with dark weapons decrease virtue. 
 
 
 
@@ -275,7 +278,7 @@ Bean bag rounds are less-than-lethal shotgun ammunition commonly used by law enf
 /// both traditional armor-piercing and hollow point ammunition, this ammunition is
 /// considered highly unethical.
 /// Req: Guns 90
-/// DMG x1.90, -30 DT, Condition x1, Spread x1, -100 Karma per kill, -15% DMG to sythetics
+/// DMG x1.90, -30 DT, Condition x1, Spread x1, -100 Virtue per kill, -15% DMG to sythetics
 /// +90% DMG to organics
 /// . High Explosive
 /// Instead of relying on mass and velocity, these rounds use chemical reactions to
@@ -523,7 +526,7 @@ Bean bag rounds are less-than-lethal shotgun ammunition commonly used by law enf
 /// temporary cavities inside their victims. Like the legendary 7N6 rounds of Soviet
 /// Afghanistan, these rounds are heinous in damage to organic life.
 /// DAM x1.3, DT x1.1, Condition X1.2, 1x Spread, +15% DMG to Organics, 55% Poison Damage
-/// -50 Karma Per Kill
+/// -50 Virtue Per Kill
 /// . Toxic Manufactured
 /// Specialized rounds constructed with sub compartments or internal air pockets for
 /// mixing, these rounds induce sickness into targets with deadly artificial toxins,
@@ -539,7 +542,7 @@ Bean bag rounds are less-than-lethal shotgun ammunition commonly used by law enf
 /// fragment. Subjecting their victims to even more fast acting toxins many simply
 /// experience their body succumb to neuralogical shock and rapid decay.
 /// DAM x1.1, DT x1, Condition X1.2, 1x Spread, +15% DMG to Organics, 75% Toxic Damage -75
-/// Karma Per Kill
+/// Virtue Per Kill
 
 ///     --Radioactive Rounds
 ///     Stamped with miniscule amount of radioactive polonium into every round Radioactive materials induce low level radition sickness in targets, reducing cooldown rates for ability uses. 
@@ -559,7 +562,7 @@ Bean bag rounds are less-than-lethal shotgun ammunition commonly used by law enf
 /// poisioning in the user.
 /// DAM x0.95, -25DT, Condition X0.50, +35% Velocity, +15% DMG to Sythetics, +40% DMG to
 /// Organics, +5% Fire Damage, +5% Toxic Damage, +55% Radiological Damage, -15% jam chance,
-/// -10% blunt damage transfer, STR > 7 to dismantle, -150 Karma per kill
+/// -10% blunt damage transfer, STR > 7 to dismantle, -150 Virtue per kill
 /// . Deleted Uranium Fletchette Fin Stabalized Sabot
 /// A flechette conterpart to the depleted unranium discarding sabot round, these tiny
 /// metal arrows sit snug inside of a unique casing. This highly advanced housing is made
@@ -576,7 +579,7 @@ Bean bag rounds are less-than-lethal shotgun ammunition commonly used by law enf
 /// and use in high rate of weapons may inflict severe radition poisioning in the user.
 /// DAM x0.95, -31DT, Condition X1.1, +95% Velocity, +15% DMG to Sythetics, +40% DMG to
 /// Organics, +5% Fire Damage, +5% Toxic Damage, +55% Radiological Damage,
-/// -20% blunt damage transfer, STR > 7 to dismantle, -150 Karma per kill
+/// -20% blunt damage transfer, STR > 7 to dismantle, -150 Virtue per kill
 /// . Plasma
 /// Steered either by projected magnetic fields or generated at point of impact by heating
 // up pressurized gas, these type of rounds primarily damage their target's through thermal
@@ -715,6 +718,23 @@ Rail
 Metro Hellbreath Volt Driver (works with Pneumatic ammo)
 RFG Gauss Rifle
 RFG Rail Driver
+
+.Spritual action system
+Range, Cost Type, Cost Amount
+Self~Touch~Target~Targets~Area~World
+Self: Casts a spiritual action upon the caster.
+Touch: Casts a melee range spiritual action upon a single point of contact.
+Target: Casts a ranged spiritual action upon a single target.
+Targets: Casts a ranged spirtual action upon one or more targets.
+Area: Casts a spiritual action over a general area of effect.
+Weather Effect: Induce a localized weather system to buff, debuff, damage targets in an area.
+Worldspace Effect: Create a microenvironment that boosts 
+Spells: Projection of One's own spiritual power/defense.
+Element-mancy: Projection/control of natural forces under the fire, water, earth, air attibutes.
+Miracles: Channeling of divinely granted power.
+Hexs: Channeling of demonically granted power.
+
+
 
 #7.Marriage, husbando, waifu, condition
 No idea what Iwas doing with this.
