@@ -112,6 +112,8 @@ Crysis 2 (Adative Shield System) - An advanced, multivariant system that utilize
 
 .Sprit Barriers
 Directly protective to magic/miracle attacks, these metaphysical form of sheilds are only taken down naturally through light/dark spirtiual properties found in natural phenomina. Hence, energy weapons like lasers that casts light over their targets can damage enemies. However, ballistic weapons cannot.
+..Light Barrier
+..Dark Barrier
 
 .Backpack Types
 Armor Ability Modules
@@ -615,6 +617,17 @@ Bean bag rounds are less-than-lethal shotgun ammunition commonly used by law enf
 /// this round still suffers a minor loss in overall damage potential. 
 /// DAM x0.90, DT 1x, Condition 1x, Spread 0.9x 
 /// </summary>
+
+.Weapon Reloading types
+..Active Reload
+This mechanic applies to weapons with magazines and external batteries. Hitting the reload button, activates the reload mini-game. Accomplishing an active reload, means more accuracy, more handling for the weapon and a faster reload. A regular reload means no additional benefits and simply a regular reload. Reload failure means a slower reload, and no benefits.
+..Active Venting
+This mechanic applies to weapons with internal batteries and venting. Hitting the reload button, actives the venting mini-game. Accomplishing an active vent, means a faster return to being able to shoot with the benefit of increased accuracy, regular venting simply allows for a normal return to shooting,failure to vent will deal a small amount of damage to the user and give the user an temporary accuracy penalty.
+..Overheating
+Some ballistic or energy weapons do not allow the user to reload or vent. Instead they have a kind of bottomless supply of ammunition only limited by overheating. Once the weapon overheats, the heat will need to disapate to allow normal firing to continue. Firing while in a overheat will mean a severe cost to accuracy and to weapon condition.
+..Recharge
+Some energy weapons have rechargeable batteries and simply require the user to wait over time to recharge their batteries to fire again.
+
 
 #7.Weapon Attachments
 Combat Sensor
